@@ -2,7 +2,7 @@
 <html class='ltr' dir='ltr' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
 <head>
 <meta content='width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1' name='viewport'/>
-<title>Cloud Paradigms</title>
+<title>I bet Microsoft Edge is rapidly taking over users in 2021</title>
 <meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
 <!-- Chrome, Firefox OS and Opera -->
 <meta content='#f9f9f9' name='theme-color'/>
@@ -10,25 +10,20 @@
 <meta content='#f9f9f9' name='msapplication-navbutton-color'/>
 <meta content='blogger' name='generator'/>
 <link href='https://gansai.blogspot.com/favicon.ico' rel='icon' type='image/x-icon'/>
-<link href='https://gansai.blogspot.com/' rel='canonical'/>
+<link href='https://gansai.blogspot.com/2020/12/i-bet-microsoft-edge-is-rapidly-taking.html' rel='canonical'/>
 <link rel="alternate" type="application/atom+xml" title="Cloud Paradigms - Atom" href="https://gansai.blogspot.com/feeds/posts/default" />
 <link rel="alternate" type="application/rss+xml" title="Cloud Paradigms - RSS" href="https://gansai.blogspot.com/feeds/posts/default?alt=rss" />
 <link rel="service.post" type="application/atom+xml" title="Cloud Paradigms - Atom" href="https://www.blogger.com/feeds/7872816081050679724/posts/default" />
-<link rel="me" href="https://www.blogger.com/profile/02656684675082724354" />
+
+<link rel="alternate" type="application/atom+xml" title="Cloud Paradigms - Atom" href="https://gansai.blogspot.com/feeds/1500679590258524653/comments/default" />
 <!--Can't find substitution for tag [blog.ieCssRetrofitLinks]-->
-<meta content='A blog on Java, JavaScript, Cloud, Kubernetes, Software Architecture, Machine Learning , AI, NLP, Data Science' name='description'/>
-<meta content='https://gansai.blogspot.com/' property='og:url'/>
-<meta content='Cloud Paradigms' property='og:title'/>
-<meta content='A blog on Java, JavaScript, Cloud, Kubernetes, Software Architecture, Machine Learning , AI, NLP, Data Science' property='og:description'/>
-<meta content='https://1.bp.blogspot.com/--246KQanEG0/YBI0jmyhBnI/AAAAAAAAyPI/6bI9bMDzDug_QIm_nwitxK6yGHbFw9laACLcBGAsYHQ/w1200-h630-p-k-no-nu/TEMP.jpg' property='og:image'/>
-<meta content='https://1.bp.blogspot.com/-_NK3j3CYHz0/YA-5oFdnWRI/AAAAAAAAyN4/lYA_Lo5YkIQXRQ7_-3hzzL6GEmKI539pACLcBGAsYHQ/w1200-h630-p-k-no-nu/temp.jpg' property='og:image'/>
-<meta content='https://lh3.googleusercontent.com/-2WpKQK8_aWc/YA-zcumxWvI/AAAAAAAAyNg/P6eQ-fL9EWMt1-HBZtvmiA9DCzwk4YNhgCLcBGAsYHQ/w1200-h630-p-k-no-nu/image.png' property='og:image'/>
-<meta content='https://1.bp.blogspot.com/-opmrZ7ecg2w/YA-cljST1xI/AAAAAAAAyNQ/Urcv52tJfDcOB9vhyaOplww7h7rGbgy4wCLcBGAsYHQ/w1200-h630-p-k-no-nu/temp.jpg' property='og:image'/>
-<meta content='https://1.bp.blogspot.com/-1OJSZlxhFfY/YA-BqX4vD9I/AAAAAAAAyM4/lgqj4Ix6hQIqOq9B3KOKvV8Q75xn4foSgCLcBGAsYHQ/w1200-h630-p-k-no-nu/temp.jpg' property='og:image'/>
-<meta content='https://1.bp.blogspot.com/-UNikhvydcq8/YA5xLAPzZnI/AAAAAAAAyMU/VCxtp-ufarsKvN_4wu6Y3HInfNOMti4JgCLcBGAsYHQ/w1200-h630-p-k-no-nu/temp.jpg' property='og:image'/>
-<meta content='https://1.bp.blogspot.com/-cheBJ7yMLv8/YA5fHCj_xlI/AAAAAAAAyLw/XlFESReQ-WUlPu3QfVRVulFpl8Efs_xDgCLcBGAsYHQ/w1200-h630-p-k-no-nu/temp.jpg' property='og:image'/>
+<link href='https://lh3.googleusercontent.com/-vPsGuU_dUEo/X9rdfnlXDRI/AAAAAAAAwSM/Lk-LjZpkzeIsLZzQMJdJSzxfrex0gCb-QCLcBGAsYHQ/w640-h360/image.png' rel='image_src'/>
+<meta content='Microsoft Edge is taking over Chrome' name='description'/>
+<meta content='https://gansai.blogspot.com/2020/12/i-bet-microsoft-edge-is-rapidly-taking.html' property='og:url'/>
+<meta content='I bet Microsoft Edge is rapidly taking over users in 2021' property='og:title'/>
+<meta content='Microsoft Edge is taking over Chrome' property='og:description'/>
+<meta content='https://lh3.googleusercontent.com/-vPsGuU_dUEo/X9rdfnlXDRI/AAAAAAAAwSM/Lk-LjZpkzeIsLZzQMJdJSzxfrex0gCb-QCLcBGAsYHQ/w1200-h630-p-k-no-nu/image.png' property='og:image'/>
 <!--[if IE]> <script> (function() { var html5 = ("abbr,article,aside,audio,canvas,datalist,details," + "figure,footer,header,hgroup,mark,menu,meter,nav,output," + "progress,section,time,video").split(','); for (var i = 0; i < html5.length; i++) { document.createElement(html5[i]); } try { document.execCommand('BackgroundImageCache', false, true); } catch(e) {} })(); </script> <![endif]-->
-<script type='application/ld+json'>{"@context":"http://schema.org","@type":"WebSite","name":"Cloud Paradigms","url":"https://gansai.blogspot.com/","potentialAction":{"@type":"SearchAction","target":"https://gansai.blogspot.com/search?q={search_term_string}","query-input":"required name=search_term_string"}}</script>
 <!-- Google Fonts -->
 <link href='//fonts.googleapis.com/css?family=Poppins:400,400i,500,500i,600,600i,700,700i' media='all' rel='stylesheet' type='text/css'/>
 <link href='https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet'/>
@@ -63,11 +58,22 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
 //]]>
 </script>
 <!-- Google Analytics -->
+<link href='https://www.blogger.com/dyn-css/authorization.css?targetBlogID=7872816081050679724&amp;zx=f814d1b2-ed19-4833-8259-9ed6f948f94d' media='none' onload='if(media!=&#39;all&#39;)media=&#39;all&#39;' rel='stylesheet'/><noscript><link href='https://www.blogger.com/dyn-css/authorization.css?targetBlogID=7872816081050679724&amp;zx=f814d1b2-ed19-4833-8259-9ed6f948f94d' rel='stylesheet'/></noscript>
 
 <!-- data-ad-client=ca-pub-4747268274936086 -->
 
+<script type="text/javascript" language="javascript">
+  // Supply ads personalization default for EEA readers
+  // See https://www.blogger.com/go/adspersonalization
+  adsbygoogle = window.adsbygoogle || [];
+  if (typeof adsbygoogle.requestNonPersonalizedAds === 'undefined') {
+    adsbygoogle.requestNonPersonalizedAds = 1;
+  }
+</script>
+
+
 </head>
-<body class='index home'>
+<body class='item'>
 <!-- Theme Options -->
 <div class='theme-options' style='display:none'>
 <div class='sora-panel section' id='sora-panel' name='Theme Options'><div class='widget LinkList' data-version='2' id='LinkList70'>
@@ -112,8 +118,8 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
 <div class='widget-content'>
 <ul>
 <li><a href='/'>Home</a></li>
-<li><a href='https://www.facebook.com/technoparadigms/about'>About</a></li>
-<li><a href='https://www.youtube.com/channel/UCtivXHOaUy9VDEQF89mW4GA'>Contact</a></li>
+<li><a href='https://superpro-templatesyard.blogspot.com/p/about.html'>About</a></li>
+<li><a href='https://superpro-templatesyard.blogspot.com/p/contact-us.html'>Contact</a></li>
 </ul>
 </div>
 </div></div>
@@ -121,10 +127,10 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
 <div class='top-bar-social social section' id='top-bar-social' name='Social Top'><div class='widget LinkList' data-version='2' id='LinkList73'>
 <div class='widget-content'>
 <ul>
-<li class='facebook'><a href='https://facebook.com/technoparadigms' target='_blank' title='facebook'></a></li>
-<li class='twitter'><a href='https://twitter.com/gansai9' target='_blank' title='twitter'></a></li>
+<li class='facebook'><a href='https://fb.com/soratemplates' target='_blank' title='facebook'></a></li>
+<li class='twitter'><a href='#' target='_blank' title='twitter'></a></li>
 <li class='instagram'><a href='#' target='_blank' title='instagram'></a></li>
-<li class='pinterest'><a href='https://in.pinterest.com/cloudparadigms1' target='_blank' title='pinterest'></a></li>
+<li class='pinterest'><a href='#' target='_blank' title='pinterest'></a></li>
 </ul>
 </div>
 </div></div>
@@ -136,20 +142,20 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
 <div class='container row'>
 <div class='header-logo section' id='header-logo' name='Header Logo'><div class='widget Header' data-version='2' id='Header1'>
 <div class='header-widget'>
-<h1>
-Cloud Paradigms
-</h1>
+<a class='header-image-wrapper' href='https://gansai.blogspot.com/'>
+<img alt='Cloud Paradigms' data-height='500' data-width='500' src='//3.bp.blogspot.com/-ZsQ3irkJJxI/X_vSDArNGcI/AAAAAAAAxpE/2op0QmfhqmMXBFjFognHzYe8SI4FFLTtwCK4BGAYYCw/s1600/Cloud%2BParadigms.png'/>
+</a>
 </div>
 </div></div>
-<div class='header-ads section' id='header-ads' name='Header Ads 728x90'><div class='widget AdSense' data-version='2' id='AdSense2'>
+<div class='header-ads section' id='header-ads' name='Header Ads 728x90'><div class='widget AdSense' data-version='2' id='AdSense4'>
 <div class='widget-content'>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- gansai_header-ads_AdSense2_1x1_as -->
+<!-- gansai_header-ads_AdSense4_1x1_as -->
 <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-4747268274936086"
      data-ad-host="ca-host-pub-1556223355139109"
-     data-ad-slot="8305833413"
+     data-ad-slot="4249290480"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
 <script>
@@ -165,21 +171,20 @@ Cloud Paradigms
 <span class='slide-menu-toggle'></span>
 <div class='main-menu section' id='main-menu' name='Main Menu'><div class='widget LinkList' data-version='2' id='LinkList74'>
 <ul id='main-menu-nav' role='menubar'>
-<li><a href='https://gansai.blogspot.com/2021/01/why-one-has-to-choose-machine-learning.html' role='menuitem'>Career</a></li>
-<li><a href='https://gansai.blogspot.com/p/code-snippets.html' role='menuitem'>Code Snippets</a></li>
-<li><a href='https://gansai.blogspot.com/2021/01/go-lang-code-snippet-how-to-print-hello.html' role='menuitem'>_GoLang Start Here</a></li>
-<li><a href='https://gansai.blogspot.com/2021/01/sql-code-snippet-how-to-retrieve-first.html' role='menuitem'>_SQL Start Here</a></li>
-<li><a href='https://gansai.blogspot.com/2021/01/python-code-snippet-how-to-print-hello.html' role='menuitem'>_Python Start Here</a></li>
-<li><a href='https://gansai.blogspot.com/2021/01/javascript-code-snippet-how-to-print.html' role='menuitem'>_JavaScript Start Here</a></li>
-<li><a href='https://gansai.blogspot.com/2021/01/java-code-snippet-how-to-print-hello.html' role='menuitem'>_Java Start Here</a></li>
-<li><a href='https://gansai.blogspot.com/p/paradigms.html' role='menuitem'>Paradigms</a></li>
-<li><a href='https://gansai.blogspot.com/p/learn-architecture.html' role='menuitem'>Architecture</a></li>
-<li><a href='https://gansai.blogspot.com/2020/03/microsoft-teams-architecture.html' role='menuitem'>__Microsoft Teams</a></li>
-<li><a href='https://gansai.blogspot.com/p/machine-learning.html' role='menuitem'>Machine Learning</a></li>
-<li><a href='https://gansai.blogspot.com/p/microsoft-azure.html' role='menuitem'>Azure</a></li>
-<li><a href='https://gansai.blogspot.com/p/google-cloud.html' role='menuitem'>Google Cloud</a></li>
-<li><a href='https://gansai.blogspot.com/p/java.html' role='menuitem'>Java</a></li>
-<li><a href='https://gansai.blogspot.com/p/javascript.html' role='menuitem'>JavaScript</a></li>
+<li><a href='/' role='menuitem'>Home-icon</a></li>
+<li><a href='#' role='menuitem'>Features</a></li>
+<li><a href='#' role='menuitem'>_Multi DropDown</a></li>
+<li><a href='#' role='menuitem'>__DropDown 1</a></li>
+<li><a href='#' role='menuitem'>__DropDown 2</a></li>
+<li><a href='#' role='menuitem'>__DropDown 3</a></li>
+<li><a href='https://superpro-templatesyard.blogspot.com/p/post-format-and-page-markup.html' role='menuitem'>_ShortCodes</a></li>
+<li><a href='https://www.sorabloggingtips.com/2017/01/how-to-add-sitemap-widget-in-blogspot-blogs.html' role='menuitem'>_SiteMap</a></li>
+<li><a href='https://superpro-templatesyard.blogspot.com/templatesyard' role='menuitem'>_Error Page</a></li>
+<li><a href='recent/mega-menu' role='menuitem'>Mega Menu</a></li>
+<li><a href='https://www.sorabloggingtips.com/2018/10/how-to-setup-cream-blogger-template.html' role='menuitem'>Documentation</a></li>
+<li><a href='https://www.sorabloggingtips.com/2021/01/how-to-setup-superpro-blogger-template.html' role='menuitem'>_Web  Documentation</a></li>
+<li><a href='https://youtu.be/mdzy5dNLDMQ' role='menuitem'>_Video Documentation</a></li>
+<li><a href='https://www.templatesyard.com/2021/01/superpro-blogger-template.html' role='menuitem'>Download This Template</a></li>
 </ul>
 </div></div>
 <div id='nav-search'>
@@ -193,237 +198,167 @@ Cloud Paradigms
 </div>
 </div>
 <div class='clearfix'></div>
-<!-- Featured Wrapper -->
-<div class='row' id='hot-wrapper'>
-<div class='section' id='hot-section' name='Hot Posts'><div class='widget PageList' data-version='2' id='PageList2'>
-<div class='widget-title'>
-<h3 class='title'>
-Pages
-</h3>
-</div>
-<div class='widget-content'>
-<ul>
-<li class='selected'>
-<a href='https://gansai.blogspot.com/'>Home</a>
-</li>
-<li>
-<a href='https://gansai.blogspot.com/p/paradigms.html'>PARADIGMS</a>
-</li>
-<li>
-<a href='https://gansai.blogspot.com/p/javascript.html'>JAVASCRIPT</a>
-</li>
-<li>
-<a href='https://gansai.blogspot.com/p/learn-architecture.html'>ARCHITECTURE</a>
-</li>
-<li>
-<a href='https://gansai.blogspot.com/p/machine-learning.html'>MACHINE LEARNING</a>
-</li>
-<li>
-<a href='https://gansai.blogspot.com/p/java.html'>JAVA</a>
-</li>
-<li>
-<a href='https://gansai.blogspot.com/p/google-cloud.html'>GOOGLE CLOUD</a>
-</li>
-</ul>
-</div>
-</div></div>
-</div>
-<div class='clearfix'></div>
 <!-- Content Wrapper -->
 <div class='row' id='content-wrapper'>
 <div class='container'>
 <!-- Main Wrapper -->
 <div id='main-wrapper'>
-<!-- Featured Wrapper -->
-<div id='feat-wrapper'>
-<div class='big-feat no-items section' id='feat-section' name='Featured Post'>
-</div>
-</div>
-<div class='clearfix'></div>
 <div class='main section' id='main' name='Main Posts'><div class='widget Blog' data-version='2' id='Blog1'>
-<div class='blog-posts hfeed container index-post-wrap'>
-<h3 class='home-title'><span>Recent posts</span></h3>
-<div class='grid-posts'>
-<div class='blog-post hentry index-post'>
-<div class='index-post-inner'>
-<div class='post-image-wrap'>
-<a class='post-image-link' href='https://gansai.blogspot.com/2021/01/what-is-project-innereye-from-microsoft.html'>
-<img alt='What is Project InnerEye from Microsoft Research ?' class='post-thumb' src='https://1.bp.blogspot.com/--246KQanEG0/YBI0jmyhBnI/AAAAAAAAyPI/6bI9bMDzDug_QIm_nwitxK6yGHbFw9laACLcBGAsYHQ/w680/TEMP.jpg'/>
-</a>
-<span class='post-tag index-post-tag'>
-research
-</span>
-</div>
-<div class='post-info'>
-<h2 class='post-title'>
-<a href='https://gansai.blogspot.com/2021/01/what-is-project-innereye-from-microsoft.html'>What is Project InnerEye from Microsoft Research ?</a>
-</h2>
+<div class='blog-posts hfeed container item-post-wrap'>
+<div class='blog-post hentry item-post'>
+<script type='application/ld+json'>{
+  "@context": "http://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://gansai.blogspot.com/2020/12/i-bet-microsoft-edge-is-rapidly-taking.html"
+  },
+  "headline": "I bet Microsoft Edge is rapidly taking over users in 2021","description": "I bet Microsoft Edge is rapidly taking over users. ( from Chrome ... ) I guess, they are slowly gaining on various fronts - User Experience ...","datePublished": "2020-12-17T10:20:00+05:30",
+  "dateModified": "2020-12-17T10:20:27+05:30","image": {
+    "@type": "ImageObject","url": "https://lh3.googleusercontent.com/-vPsGuU_dUEo/X9rdfnlXDRI/AAAAAAAAwSM/Lk-LjZpkzeIsLZzQMJdJSzxfrex0gCb-QCLcBGAsYHQ/w1200-h630-p-k-no-nu/image.png",
+    "height": 630,
+    "width": 1200},"publisher": {
+    "@type": "Organization",
+    "name": "Blogger",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://lh3.googleusercontent.com/ULB6iBuCeTVvSjjjU1A-O8e9ZpVba6uvyhtiWRti_rBAs9yMYOFBujxriJRZ-A=h60",
+      "width": 206,
+      "height": 60
+    }
+  },"author": {
+    "@type": "Person",
+    "name": "Ganesh Swamypillai"
+  }
+}</script>
+<nav id='breadcrumb'><a href='https://gansai.blogspot.com/'>Home</a><em class='delimiter'></em><a class='b-label' href='https://gansai.blogspot.com/search/label/MICROSOFT'>MICROSOFT</a><em class='delimiter'></em><span class='current'>I bet Microsoft Edge is rapidly taking over users in 2021</span></nav>
+<script type='application/ld+json'>
+              {
+                "@context": "http://schema.org",
+                "@type": "BreadcrumbList",
+                "@id": "#Breadcrumb",
+                "itemListElement": [{
+                  "@type": "ListItem",
+                  "position": 1,
+                  "item": {
+                    "name": "Home",
+                    "@id": "https://gansai.blogspot.com/"
+                  }
+                },{
+                  "@type": "ListItem",
+                  "position": 2,
+                  "item": {
+                    "name": "MICROSOFT",
+                    "@id": "https://gansai.blogspot.com/search/label/MICROSOFT"
+                  }
+                },{
+                  "@type": "ListItem",
+                  "position": 3,
+                  "item": {
+                    "name": "I bet Microsoft Edge is rapidly taking over users in 2021",
+                    "@id": "https://gansai.blogspot.com/2020/12/i-bet-microsoft-edge-is-rapidly-taking.html"
+                  }
+                }]
+              }
+            </script>
+<h1 class='post-title'>
+I bet Microsoft Edge is rapidly taking over users in 2021
+</h1>
 <div class='post-meta'>
-<span class='post-date published' datetime='2021-01-28T10:08:00+05:30'>January 28, 2021</span>
+<span class='post-author'><a href='https://www.blogger.com/profile/02656684675082724354' target='_blank' title='Ganesh Swamypillai'>Ganesh Swamypillai</a></span>
+<span class='post-date published' datetime='2020-12-17T10:20:00+05:30'>December 17, 2020</span>
 </div>
-<p class='post-snippet'>What is Project InnerEye from Microsoft Research ? ( courtesy: Microsoft Resea&#8230;</p>
-<a class='read-more' href='https://gansai.blogspot.com/2021/01/what-is-project-innereye-from-microsoft.html'>Read more</a>
+<div class='post-body post-content'>
+<p></p><div class="separator" style="clear: both; text-align: center;"><a href="https://lh3.googleusercontent.com/-vPsGuU_dUEo/X9rdfnlXDRI/AAAAAAAAwSM/Lk-LjZpkzeIsLZzQMJdJSzxfrex0gCb-QCLcBGAsYHQ/image.png" style="margin-left: 1em; margin-right: 1em;"><img alt="" data-original-height="168" data-original-width="299" height="360" src="https://lh3.googleusercontent.com/-vPsGuU_dUEo/X9rdfnlXDRI/AAAAAAAAwSM/Lk-LjZpkzeIsLZzQMJdJSzxfrex0gCb-QCLcBGAsYHQ/w640-h360/image.png" width="640" /></a></div><br /><br /><p></p><p><br /></p><p>I bet Microsoft Edge is rapidly taking over users. ( from Chrome ... )</p><p>I guess, they are slowly gaining on various fronts -</p><p><br /></p><p></p><ol style="text-align: left;"><li>User Experience</li><li>Speed</li><li>Support for extensibility</li></ol><div>but, one thing, really stands out from my observation and that is:&nbsp;</div><div><br /></div><div><span style="font-size: large;">Microsoft Office 365 Integration.</span></div><div><br /></div><div>For enterprise users, it's just&nbsp; a breeze to work from the browser.</div><div><br /></div><div>Atleast 2 years back, nobody ( layman user ) would have imagined that, they would be&nbsp;</div><div><br /></div><div><ol style="text-align: left;"><li>Using Microsoft developed Internet browser</li><li>Editing word document within the browser ( or other office applications )</li></ol><div><br /></div></div><div>One thing I want to clearly mention here is : Bing ( Microsoft Bing )&nbsp;</div><div><br /></div><div>Its capitalization on Enterprise usage.</div><div><br /></div><div>The best part about the design is: Enterprise Integration of Microsoft Bing.</div><div><br /></div><div>With Bing you can search data of your organization - whatever data is present in Microsoft Office 365, all that data is indexed by Bing and is retrievable to the end enterprise user.</div><div><br /></div><div>One thing clearly is benefitting Microsoft Edge is: familiarity . Atleast for the enterprise user, if they are able to work continuously within the browser, it's great. So, context switching is less and less annoying too.&nbsp;</div><div>Of course internet speed , fast responsive web frameworks - I am equally curious about what powers Microsoft Office 365 tools - I am guessing it would be react native stack.</div><div><br /></div><div>I guess, over the period of time, looks like: Microsoft has bet on almost all things properly. ( Azure was the turning point for positive as well as grandeur image which Microsoft is getting nowadays )</div><div><br /></div><div>I just have to wait and watch, how personal users like and embrace Microsoft Edge.</div><div><br /></div><div>Google's power or differentiator is of course search - anyone who uses google chrome on mobile - uses it obviously for search, more than for opening a webpage specifically ( unless it is swiggy.com - where the user is lazy to install Swiggy app on mobile ).</div><div><br /></div><div>I am wondering, how is Google going to compete with Microsoft on Enterprise market.</div><div><br /></div><div>Microsoft is embracing the enterprise users on all fronts:</div><div><br /></div><div><ol style="text-align: left;"><li>Operating Systems - Most of enterprise users use Windows 10 nowadays ( 2020 )</li><li>Office 365 - Most of the work gets done with these tools - powerpoint / excel / word</li><li>Microsoft Teams - collaborative - covid spiked its usage</li><li>now, slowly Edge - for browsing the internet</li></ol><div>Why would anyone continue to use Chrome, in this context of setup ? Probably, their old familiarity - the way they were used to live / exist on Chrome before Edge came.</div></div><div>But, now that, Edge has arrived and humans are known to embrace new products or new things, can Google Chrome cope up ? Note that, Google Search is the key.. Youtube seems to be a whole different universe, not seen under the 'browser world' Sorry, I started digressing into Youtube - which is not required in this context...</div><p></p>
 </div>
-</div>
-</div>
-<div class='blog-post hentry index-post'>
-<div class='index-post-inner'>
-<div class='post-image-wrap'>
-<a class='post-image-link' href='https://gansai.blogspot.com/2021/01/what-are-different-research-fields_26.html'>
-<img alt='What are the different research fields Amazon has invested into ?' class='post-thumb' src='https://1.bp.blogspot.com/-_NK3j3CYHz0/YA-5oFdnWRI/AAAAAAAAyN4/lYA_Lo5YkIQXRQ7_-3hzzL6GEmKI539pACLcBGAsYHQ/w680/temp.jpg'/>
-</a>
-<span class='post-tag index-post-tag'>
-research
-</span>
-</div>
-<div class='post-info'>
-<h2 class='post-title'>
-<a href='https://gansai.blogspot.com/2021/01/what-are-different-research-fields_26.html'>What are the different research fields Amazon has invested into ?</a>
-</h2>
-<div class='post-meta'>
-<span class='post-date published' datetime='2021-01-26T12:20:00+05:30'>January 26, 2021</span>
-</div>
-<p class='post-snippet'>What are the different research fields Amazon has invested into ? Cloud and sy&#8230;</p>
-<a class='read-more' href='https://gansai.blogspot.com/2021/01/what-are-different-research-fields_26.html'>Read more</a>
+<div class='post-footer'>
+<div class='post-labels'>
+<span>Tags</span>
+<div class='label-head Label'>
+<a class='label-link' href='https://gansai.blogspot.com/search/label/MICROSOFT' rel='tag'>MICROSOFT</a>
 </div>
 </div>
-</div>
-<div class='blog-post hentry index-post'>
-<div class='index-post-inner'>
-<div class='post-image-wrap'>
-<a class='post-image-link' href='https://gansai.blogspot.com/2021/01/what-are-different-research-fields.html'>
-<img alt='What are the different research fields Microsoft has invested into ?' class='post-thumb' src='https://lh3.googleusercontent.com/-2WpKQK8_aWc/YA-zcumxWvI/AAAAAAAAyNg/P6eQ-fL9EWMt1-HBZtvmiA9DCzwk4YNhgCLcBGAsYHQ/w680/image.png'/>
-</a>
-<span class='post-tag index-post-tag'>
-research
-</span>
-</div>
-<div class='post-info'>
-<h2 class='post-title'>
-<a href='https://gansai.blogspot.com/2021/01/what-are-different-research-fields.html'>What are the different research fields Microsoft has invested into ?</a>
-</h2>
-<div class='post-meta'>
-<span class='post-date published' datetime='2021-01-26T11:50:00+05:30'>January 26, 2021</span>
-</div>
-<p class='post-snippet'>What are the different research fields Microsoft has invested into ? Microsoft &#8230;</p>
-<a class='read-more' href='https://gansai.blogspot.com/2021/01/what-are-different-research-fields.html'>Read more</a>
+<div class='post-reactions'>
+<span>Reactions</span>
+<div class='reactions-inner'>
+<iframe allowtransparency='true' class='reactions-iframe' frameborder='0' name='reactions' scrolling='no' src='https://www.blogger.com/blog-post-reactions.g?options=%5Blove+it+!,+funny,+interesting,+cool,+I+don&#39;t+like,+Just+another%5D&textColor=%23656565#https://gansai.blogspot.com/2020/12/i-bet-microsoft-edge-is-rapidly-taking.html'></iframe>
 </div>
 </div>
+<div class='post-share'>
+<ul class='share-links social social-color'>
+<li class='facebook'><a class='facebook' href='https://www.facebook.com/sharer.php?u=https://gansai.blogspot.com/2020/12/i-bet-microsoft-edge-is-rapidly-taking.html' onclick='window.open(this.href, &#39;windowName&#39;, &#39;width=550, height=650, left=24, top=24, scrollbars, resizable&#39;); return false;' rel='nofollow'></a></li>
+<li class='twitter'><a class='twitter' href='https://twitter.com/share?url=https://gansai.blogspot.com/2020/12/i-bet-microsoft-edge-is-rapidly-taking.html&text=I bet Microsoft Edge is rapidly taking over users in 2021' onclick='window.open(this.href, &#39;windowName&#39;, &#39;width=550, height=450, left=24, top=24, scrollbars, resizable&#39;); return false;' rel='nofollow'></a></li>
+<li class='pinterest'><a class='pinterest' href='https://www.pinterest.com/pin/create/button/?url=https://gansai.blogspot.com/2020/12/i-bet-microsoft-edge-is-rapidly-taking.html&media=https://lh3.googleusercontent.com/-vPsGuU_dUEo/X9rdfnlXDRI/AAAAAAAAwSM/Lk-LjZpkzeIsLZzQMJdJSzxfrex0gCb-QCLcBGAsYHQ/w640-h360/image.png&description=I bet Microsoft Edge is rapidly taking over users in 2021' onclick='window.open(this.href, &#39;windowName&#39;, &#39;width=735, height=750, left=24, top=24, scrollbars, resizable&#39;); return false;' rel='nofollow'></a></li>
+<li class='linkedin'><a class='linkedin' href='https://www.linkedin.com/shareArticle?url=https://gansai.blogspot.com/2020/12/i-bet-microsoft-edge-is-rapidly-taking.html' onclick='window.open(this.href, &#39;windowName&#39;, &#39;width=550, height=650, left=24, top=24, scrollbars, resizable&#39;); return false;' rel='nofollow'></a></li>
+<li class='whatsapp whatsapp-desktop'><a class='whatsapp' href='https://web.whatsapp.com/send?text=I bet Microsoft Edge is rapidly taking over users in 2021 | https://gansai.blogspot.com/2020/12/i-bet-microsoft-edge-is-rapidly-taking.html' onclick='window.open(this.href, &#39;windowName&#39;, &#39;width=900, height=550, left=24, top=24, scrollbars, resizable&#39;); return false;' rel='nofollow'></a></li>
+<li class='email'><a class='email' href='mailto:?subject=I bet Microsoft Edge is rapidly taking over users in 2021&body=https://gansai.blogspot.com/2020/12/i-bet-microsoft-edge-is-rapidly-taking.html' onclick='window.open(this.href, &#39;windowName&#39;, &#39;width=500, height=400, left=24, top=24, scrollbars, resizable&#39;); return false;' rel='nofollow'></a></li>
+</ul>
 </div>
-<div class='blog-post hentry index-post'>
-<div class='index-post-inner'>
-<div class='post-image-wrap'>
-<a class='post-image-link' href='https://gansai.blogspot.com/2021/01/java-code-snippet-how-to-create-file.html'>
-<img alt='Java Code Snippet : How to create a file using BufferedWriter in Java Program ?' class='post-thumb' src='https://1.bp.blogspot.com/-opmrZ7ecg2w/YA-cljST1xI/AAAAAAAAyNQ/Urcv52tJfDcOB9vhyaOplww7h7rGbgy4wCLcBGAsYHQ/w680/temp.jpg'/>
-</a>
-<span class='post-tag index-post-tag'>
-JAVA
-</span>
+<div id='related-wrap'>
+<div class='title-wrap'>
+<h3>You may like these posts</h3>
 </div>
-<div class='post-info'>
-<h2 class='post-title'>
-<a href='https://gansai.blogspot.com/2021/01/java-code-snippet-how-to-create-file.html'>Java Code Snippet : How to create a file using BufferedWriter in Java Program ?</a>
-</h2>
-<div class='post-meta'>
-<span class='post-date published' datetime='2021-01-26T10:08:00+05:30'>January 26, 2021</span>
-</div>
-<p class='post-snippet'>Java Code Snippet : How to create a file using BufferedWriter in Java Program &#8230;</p>
-<a class='read-more' href='https://gansai.blogspot.com/2021/01/java-code-snippet-how-to-create-file.html'>Read more</a>
-</div>
-</div>
-</div>
-<div class='blog-post hentry index-post'>
-<div class='index-post-inner'>
-<div class='post-image-wrap'>
-<a class='post-image-link' href='https://gansai.blogspot.com/2021/01/why-one-has-to-choose-machine-learning.html'>
-<img alt='Why one has to choose machine learning artificial intelligence concepts for internship ?' class='post-thumb' src='https://1.bp.blogspot.com/-1OJSZlxhFfY/YA-BqX4vD9I/AAAAAAAAyM4/lgqj4Ix6hQIqOq9B3KOKvV8Q75xn4foSgCLcBGAsYHQ/w680/temp.jpg'/>
-</a>
-<span class='post-tag index-post-tag'>
-machine learning
-</span>
-</div>
-<div class='post-info'>
-<h2 class='post-title'>
-<a href='https://gansai.blogspot.com/2021/01/why-one-has-to-choose-machine-learning.html'>Why one has to choose machine learning artificial intelligence concepts for internship ?</a>
-</h2>
-<div class='post-meta'>
-<span class='post-date published' datetime='2021-01-26T08:29:00+05:30'>January 26, 2021</span>
-</div>
-<p class='post-snippet'>Why one has to choose machine learning artificial intelligence concepts for in&#8230;</p>
-<a class='read-more' href='https://gansai.blogspot.com/2021/01/why-one-has-to-choose-machine-learning.html'>Read more</a>
-</div>
-</div>
-</div>
-<div class='blog-post hentry index-post'>
-<div class='index-post-inner'>
-<div class='post-image-wrap'>
-<a class='post-image-link' href='https://gansai.blogspot.com/2021/01/sql-code-snippet-how-to-retrieve-first.html'>
-<img alt='SQL Code Snippet: How to retrieve first 10 rows from a table ? ' class='post-thumb' src='https://1.bp.blogspot.com/-UNikhvydcq8/YA5xLAPzZnI/AAAAAAAAyMU/VCxtp-ufarsKvN_4wu6Y3HInfNOMti4JgCLcBGAsYHQ/w680/temp.jpg'/>
-</a>
-<span class='post-tag index-post-tag'>
-sql
-</span>
-</div>
-<div class='post-info'>
-<h2 class='post-title'>
-<a href='https://gansai.blogspot.com/2021/01/sql-code-snippet-how-to-retrieve-first.html'>SQL Code Snippet: How to retrieve first 10 rows from a table ? </a>
-</h2>
-<div class='post-meta'>
-<span class='post-date published' datetime='2021-01-25T12:51:00+05:30'>January 25, 2021</span>
-</div>
-<p class='post-snippet'>SQL Code Snippet: How to retrieve first 10 rows from a table ?&#160; SELECT TOP 10 &#8230;</p>
-<a class='read-more' href='https://gansai.blogspot.com/2021/01/sql-code-snippet-how-to-retrieve-first.html'>Read more</a>
-</div>
-</div>
-</div>
-<div class='blog-post hentry index-post'>
-<div class='index-post-inner'>
-<div class='post-image-wrap'>
-<a class='post-image-link' href='https://gansai.blogspot.com/2021/01/go-lang-code-snippet-how-to-print-hello.html'>
-<img alt='Go Lang Code Snippet: How to print Hello World in Go Language ?' class='post-thumb' src='https://1.bp.blogspot.com/-cheBJ7yMLv8/YA5fHCj_xlI/AAAAAAAAyLw/XlFESReQ-WUlPu3QfVRVulFpl8Efs_xDgCLcBGAsYHQ/w680/temp.jpg'/>
-</a>
-<span class='post-tag index-post-tag'>
-GOLANG
-</span>
-</div>
-<div class='post-info'>
-<h2 class='post-title'>
-<a href='https://gansai.blogspot.com/2021/01/go-lang-code-snippet-how-to-print-hello.html'>Go Lang Code Snippet: How to print Hello World in Go Language ?</a>
-</h2>
-<div class='post-meta'>
-<span class='post-date published' datetime='2021-01-25T11:37:00+05:30'>January 25, 2021</span>
-</div>
-<p class='post-snippet'>Go Lang Code Snippet: How to print Hello World in Go Language ? Step 1: Create&#8230;</p>
-<a class='read-more' href='https://gansai.blogspot.com/2021/01/go-lang-code-snippet-how-to-print-hello.html'>Read more</a>
+<div class='related-ready'>
+<div class='related-tag' data-label='MICROSOFT'></div>
 </div>
 </div>
 </div>
 </div>
+<div class='blog-post-comments'>
+<script type='text/javascript'>
+                var disqus_blogger_current_url = "https://gansai.blogspot.com/2020/12/i-bet-microsoft-edge-is-rapidly-taking.html";
+                if (!disqus_blogger_current_url.length) {
+                  disqus_blogger_current_url = "https://gansai.blogspot.com/2020/12/i-bet-microsoft-edge-is-rapidly-taking.html";
+                }
+                var disqus_blogger_homepage_url = "https://gansai.blogspot.com/";
+                var disqus_blogger_canonical_homepage_url = "https://gansai.blogspot.com/";
+              </script>
+<div class='title-wrap comments-title'>
+<h3>Post a Comment</h3>
 </div>
-<div class='blog-pager container' id='blog-pager'>
-<a class='blog-pager-older-link' href='https://gansai.blogspot.com/search?updated-max=2021-01-25T11:37:00%2B05:30&amp;max-results=7' id='Blog1_blog-pager-older-link' title='Older Posts'>
-Older Posts
-</a>
+<section class='comments embed' data-num-comments='0' id='comments'>
+<a name='comments'></a>
+<h3 class='title'>0
+Comments</h3>
+<div id='Blog1_comments-block-wrapper'>
+</div>
+<div class='footer'>
+<div class='comment-form'>
+<a name='comment-form'></a>
+<p>Thank you for your comments</p>
+<a href='https://www.blogger.com/comment-iframe.g?blogID=7872816081050679724&postID=1500679590258524653&skin=contempo' id='comment-editor-src'></a>
+<iframe allowtransparency='allowtransparency' class='blogger-iframe-colorize blogger-comment-from-post' frameborder='0' height='410px' id='comment-editor' name='comment-editor' src='' width='100%'></iframe>
+<script src='https://www.blogger.com/static/v1/jsbin/3858658042-comment_from_post_iframe.js' type='text/javascript'></script>
+<script type='text/javascript'>
+                  BLOG_CMT_createIframe('https://www.blogger.com/rpc_relay.html');
+                </script>
+</div>
+</div>
+</section>
+</div>
 </div>
 </div></div>
 </div>
 <!-- Sidebar Wrapper -->
 <div id='sidebar-wrapper'>
-<div class='sidebar common-widget section' id='sidebar1' name='Sidebar Right (A)'><div class='widget AdSense' data-version='2' id='AdSense1'>
+<div class='sidebar common-widget section' id='sidebar1' name='Sidebar Right (A)'><div class='widget Attribution' data-version='2' id='Attribution1'>
 <div class='widget-content'>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- gansai_sidebar1_AdSense1_1x1_as -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4747268274936086"
-     data-ad-host="ca-host-pub-1556223355139109"
-     data-ad-slot="5194884103"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class='blogger'>
+<a href='https://www.blogger.com' rel='nofollow'>
+<svg class='svg-icon-24'>
+<use xlink:href='/responsive/sprite_v1_6.css.svg#ic_post_blogger_black_24dp' xmlns:xlink='http://www.w3.org/1999/xlink'></use>
+</svg>
+Powered by Blogger
+</a>
 </div>
+</div>
+</div>
+<div class='widget ReportAbuse' data-version='2' id='ReportAbuse1'>
+<h3 class='title'>
+<a class='report_abuse' href='https://www.blogger.com/go/report-abuse' rel='noopener nofollow' target='_blank'>
+Report Abuse
+</a>
+</h3>
 </div>
 <div class='widget BlogSearch' data-version='2' id='BlogSearch1'>
 <div class='widget-title'>
@@ -438,10 +373,184 @@ Search This Blog
 </form>
 </div>
 </div>
-<div class='widget PageList' data-version='2' id='PageList1'>
+<div class='widget BlogArchive' data-version='2' id='BlogArchive1'>
+<div class='widget-title'>
+<h3 class='title'>
+Blog Archive
+</h3>
+</div>
+<div class='widget-content'>
+<div id='ArchiveList'>
+<div id='BlogArchive1_ArchiveList'>
+<ul class='flat'>
+<li class='archivedate'>
+<a href='https://gansai.blogspot.com/2021/01/'>
+January<span class='post-count'>2</span>
+</a>
+</li>
+<li class='archivedate'>
+<a href='https://gansai.blogspot.com/2020/12/'>
+December<span class='post-count'>5</span>
+</a>
+</li>
+<li class='archivedate'>
+<a href='https://gansai.blogspot.com/2020/09/'>
+September<span class='post-count'>2</span>
+</a>
+</li>
+<li class='archivedate'>
+<a href='https://gansai.blogspot.com/2020/08/'>
+August<span class='post-count'>5</span>
+</a>
+</li>
+<li class='archivedate'>
+<a href='https://gansai.blogspot.com/2020/07/'>
+July<span class='post-count'>6</span>
+</a>
+</li>
+<li class='archivedate'>
+<a href='https://gansai.blogspot.com/2020/06/'>
+June<span class='post-count'>3</span>
+</a>
+</li>
+<li class='archivedate'>
+<a href='https://gansai.blogspot.com/2020/05/'>
+May<span class='post-count'>8</span>
+</a>
+</li>
+<li class='archivedate'>
+<a href='https://gansai.blogspot.com/2020/04/'>
+April<span class='post-count'>10</span>
+</a>
+</li>
+<li class='archivedate'>
+<a href='https://gansai.blogspot.com/2020/03/'>
+March<span class='post-count'>11</span>
+</a>
+</li>
+<li class='archivedate'>
+<a href='https://gansai.blogspot.com/2020/02/'>
+February<span class='post-count'>15</span>
+</a>
+</li>
+<li class='archivedate'>
+<a href='https://gansai.blogspot.com/2020/01/'>
+January<span class='post-count'>7</span>
+</a>
+</li>
+<li class='archivedate'>
+<a href='https://gansai.blogspot.com/2019/12/'>
+December<span class='post-count'>4</span>
+</a>
+</li>
+<li class='archivedate'>
+<a href='https://gansai.blogspot.com/2019/09/'>
+September<span class='post-count'>1</span>
+</a>
+</li>
+<li class='archivedate'>
+<a href='https://gansai.blogspot.com/2019/08/'>
+August<span class='post-count'>1</span>
+</a>
+</li>
+<li class='archivedate'>
+<a href='https://gansai.blogspot.com/2018/12/'>
+December<span class='post-count'>5</span>
+</a>
+</li>
+<li class='archivedate'>
+<a href='https://gansai.blogspot.com/2015/03/'>
+March<span class='post-count'>1</span>
+</a>
+</li>
+<li class='archivedate'>
+<a href='https://gansai.blogspot.com/2014/03/'>
+March<span class='post-count'>1</span>
+</a>
+</li>
+<li class='archivedate'>
+<a href='https://gansai.blogspot.com/2014/02/'>
+February<span class='post-count'>2</span>
+</a>
+</li>
+<li class='archivedate'>
+<a href='https://gansai.blogspot.com/2013/02/'>
+February<span class='post-count'>1</span>
+</a>
+</li>
+<li class='archivedate'>
+<a href='https://gansai.blogspot.com/2012/10/'>
+October<span class='post-count'>1</span>
+</a>
+</li>
+<li class='archivedate'>
+<a href='https://gansai.blogspot.com/2012/05/'>
+May<span class='post-count'>1</span>
+</a>
+</li>
+<li class='archivedate'>
+<a href='https://gansai.blogspot.com/2012/04/'>
+April<span class='post-count'>1</span>
+</a>
+</li>
+<li class='archivedate'>
+<a href='https://gansai.blogspot.com/2012/03/'>
+March<span class='post-count'>1</span>
+</a>
+</li>
+<li class='archivedate'>
+<a href='https://gansai.blogspot.com/2012/02/'>
+February<span class='post-count'>4</span>
+</a>
+</li>
+<li class='archivedate'>
+<a href='https://gansai.blogspot.com/2012/01/'>
+January<span class='post-count'>3</span>
+</a>
+</li>
+<li class='archivedate'>
+<a href='https://gansai.blogspot.com/2010/12/'>
+December<span class='post-count'>1</span>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class='widget HTML' data-version='1' id='HTML10'>
+<h2 class='title'>recent posts</h2>
+<div class='widget-content'>
+recentposts1
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=7872816081050679724&widgetType=HTML&widgetId=HTML10&action=editWidget&sectionId=sidebar1' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML10"));' rel='nofollow' target='configHTML10' title='Edit'>
+<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+<div class='widget HTML' data-version='1' id='HTML9'>
+<h2 class='title'>recent comments</h2>
+<div class='widget-content'>
+recentcomments
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=7872816081050679724&widgetType=HTML&widgetId=HTML9&action=editWidget&sectionId=sidebar1' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML9"));' rel='nofollow' target='configHTML9' title='Edit'>
+<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget PageList' data-version='2' id='PageList1'>
 <div class='widget-content'>
 <ul>
-<li class='selected'>
+<li>
 <a href='https://gansai.blogspot.com/'>Home</a>
 </li>
 <li>
@@ -473,31 +582,25 @@ Social Plugin
 </div>
 <div class='widget-content'>
 <ul class='social-counter social'>
-<li class='facebook'><a href='https://facebook.com/technoparadigms' target='_blank' title='facebook'></a></li>
-<li class='twitter'><a href='https://twitter.com/gansai9' target='_blank' title='twitter'></a></li>
+<li class='facebook'><a href='http://fb.com/soratemplates' target='_blank' title='facebook'></a></li>
+<li class='twitter'><a href='#' target='_blank' title='twitter'></a></li>
 <li class='rss'><a href='#' target='_blank' title='rss'></a></li>
 <li class='linkedin'><a href='#' target='_blank' title='linkedin'></a></li>
-<li class='reddit'><a href='https://www.reddit.com/user/redgansai' target='_blank' title='reddit'></a></li>
-<li class='pinterest'><a href='https://in.pinterest.com/cloudparadigms1' target='_blank' title='pinterest'></a></li>
-<li class='instagram'><a href='https://instagram.com/gansainsta' target='_blank' title='instagram'></a></li>
-<li class='youtube'><a href='https://www.youtube.com/channel/UCtivXHOaUy9VDEQF89mW4GA' target='_blank' title='youtube'></a></li>
+<li class='reddit'><a href='#' target='_blank' title='reddit'></a></li>
+<li class='pinterest'><a href='#' target='_blank' title='pinterest'></a></li>
+<li class='instagram'><a href='#' target='_blank' title='instagram'></a></li>
+<li class='youtube'><a href='#' target='_blank' title='youtube'></a></li>
 </ul>
 </div>
 </div></div>
-<div class='sidebar common-widget section' id='sidebar2' name='Sidebar Right (B)'><div class='widget AdSense' data-version='2' id='AdSense3'>
+<div class='sidebar common-widget section' id='sidebar2' name='Sidebar Right (B)'><div class='widget HTML' data-version='2' id='HTML6'>
+<div class='widget-title'>
+<h3 class='title'>
+Facebook
+</h3>
+</div>
 <div class='widget-content'>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- gansai_sidebar2_AdSense3_1x1_as -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4747268274936086"
-     data-ad-host="ca-host-pub-1556223355139109"
-     data-ad-slot="3053506732"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<center><div class="fb-page" data-href="https://www.facebook.com/templatesyard" data-width="360" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"></div></center>
 </div>
 </div><div class='widget HTML' data-version='2' id='HTML5'>
 <div class='widget-title'>
@@ -508,7 +611,7 @@ Subscribe Us
 <div class='widget-content'>
 <div class="videoWrapper">
     <!-- Copy & Pasted from YouTube -->
-    <iframe width="560" height="349" src="https://www.youtube.com/embed/7qQL1taCFrg" frameborder="0" allowfullscreen></iframe>
+    <iframe width="560" height="349" src="https://www.youtube.com/embed/e1oqb-kgxLs" frameborder="0" allowfullscreen></iframe>
 </div>
 <style>
 .videoWrapper {
@@ -535,36 +638,6 @@ Popular Posts
 <div class='widget-content'>
 <div class='post'>
 <div class='post-content'>
-<a class='post-image-link' href='https://gansai.blogspot.com/2021/01/python-latest-updates-pip-is-dropping.html'>
-<img alt='Python Latest Updates: PIP is dropping support for Python 2' class='post-thumb' src='https://1.bp.blogspot.com/-pacYYG-xK8A/YA0GjCSZK0I/AAAAAAAAyKY/2nFTr7XQvQ4r04Uz7nkABaTTi4h2NwcvACLcBGAsYHQ/w680/temp.jpg'/>
-</a>
-<div class='post-info'>
-<h2 class='post-title'>
-<a href='https://gansai.blogspot.com/2021/01/python-latest-updates-pip-is-dropping.html'>Python Latest Updates: PIP is dropping support for Python 2</a>
-</h2>
-<div class='post-meta'>
-<span class='post-date published' datetime='2021-01-24T11:09:00+05:30'>January 24, 2021</span>
-</div>
-</div>
-</div>
-</div>
-<div class='post'>
-<div class='post-content'>
-<a class='post-image-link' href='https://gansai.blogspot.com/2021/01/what-is-project-innereye-from-microsoft.html'>
-<img alt='What is Project InnerEye from Microsoft Research ?' class='post-thumb' src='https://1.bp.blogspot.com/--246KQanEG0/YBI0jmyhBnI/AAAAAAAAyPI/6bI9bMDzDug_QIm_nwitxK6yGHbFw9laACLcBGAsYHQ/w680/TEMP.jpg'/>
-</a>
-<div class='post-info'>
-<h2 class='post-title'>
-<a href='https://gansai.blogspot.com/2021/01/what-is-project-innereye-from-microsoft.html'>What is Project InnerEye from Microsoft Research ?</a>
-</h2>
-<div class='post-meta'>
-<span class='post-date published' datetime='2021-01-28T10:08:00+05:30'>January 28, 2021</span>
-</div>
-</div>
-</div>
-</div>
-<div class='post'>
-<div class='post-content'>
 <a class='post-image-link' href='https://gansai.blogspot.com/2019/08/cloud-based-architecture-for-hotel.html'>
 <img alt='System Design Architecture for Hotel Reservation System' class='post-thumb' src='https://4.bp.blogspot.com/-fpu58PFPbOA/XWol1fE6oII/AAAAAAAAmXE/hYTwlbbu9-cIxEX_wGMfVKvxIUvW_xsPQCK4BGAYYCw/w680/francesca-saraco-_dS27XGgRyQ-unsplash.jpg'/>
 </a>
@@ -574,6 +647,36 @@ Popular Posts
 </h2>
 <div class='post-meta'>
 <span class='post-date published' datetime='2019-08-31T13:15:00+05:30'>August 31, 2019</span>
+</div>
+</div>
+</div>
+</div>
+<div class='post'>
+<div class='post-content'>
+<a class='post-image-link' href='https://gansai.blogspot.com/2020/03/microsoft-teams-architecture.html'>
+<img alt='MICROSOFT TEAMS Architecture: Behind scenes of 75 Million Daily Active Users' class='post-thumb' src='https://lh3.googleusercontent.com/proxy/jiDDS-lyRdbwBIy7PtoLAvmnDMxa8TJktowvVCFMm1IU4-Yqg4qT8z25AHlkieXbmSrLDu-MZc_OcUsZB1khhHifBjLKd2zKDmmtONvNzwH57CpY14DgKSpzr4qK6DqAgcUxwz-IH0w1R9kvXwDY2FHwGspDj2-G5kJ-dbPR8GzstwEyYxU=w680'/>
+</a>
+<div class='post-info'>
+<h2 class='post-title'>
+<a href='https://gansai.blogspot.com/2020/03/microsoft-teams-architecture.html'>MICROSOFT TEAMS Architecture: Behind scenes of 75 Million Daily Active Users</a>
+</h2>
+<div class='post-meta'>
+<span class='post-date published' datetime='2020-08-09T01:36:00+05:30'>August 09, 2020</span>
+</div>
+</div>
+</div>
+</div>
+<div class='post'>
+<div class='post-content'>
+<a class='post-image-link' href='https://gansai.blogspot.com/2020/08/healofy-architecture-behind-scenes-of-4.html'>
+<img alt='Healofy Architecture: Behind the scenes of 4 million daily active users ' class='post-thumb' src='https://1.bp.blogspot.com/-sHty-VvoEaU/X0PlqOSfeMI/AAAAAAAAvY4/vVlXuT0nTNAcxu8Cz8CZOQGnrQt_HgJswCLcBGAsYHQ/w680/healofy.png'/>
+</a>
+<div class='post-info'>
+<h2 class='post-title'>
+<a href='https://gansai.blogspot.com/2020/08/healofy-architecture-behind-scenes-of-4.html'>Healofy Architecture: Behind the scenes of 4 million daily active users </a>
+</h2>
+<div class='post-meta'>
+<span class='post-date published' datetime='2020-08-24T21:38:00+05:30'>August 24, 2020</span>
 </div>
 </div>
 </div>
@@ -603,29 +706,7 @@ Follow by Email
 <div id='footer-wrapper'>
 <div class='container row'>
 <div class='footer-widgets-wrap'>
-<div class='footer common-widget section' id='footer-sec1' name='Section (Left)'><div class='widget HTML' data-version='2' id='HTML1'>
-<script type='text/javascript'>
-var disqus_shortname = 'gansaiblog';
-var disqus_blogger_current_url = "https://gansai.blogspot.com/";
-if (!disqus_blogger_current_url.length) {
-disqus_blogger_current_url = "https://gansai.blogspot.com/";
-}
-var disqus_blogger_homepage_url = "https://gansai.blogspot.com/";
-var disqus_blogger_canonical_homepage_url = "https://gansai.blogspot.com/";
-</script>
-<style type='text/css'>
-.post-comment-link { visibility: hidden; }
-</style>
-<script type='text/javascript'>
-(function() {
-var bloggerjs = document.createElement('script');
-bloggerjs.type = 'text/javascript';
-bloggerjs.async = true;
-bloggerjs.src = '//' + disqus_shortname + '.disqus.com/blogger_index.js';
-(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(bloggerjs);
-})();
-</script>
-</div><div class='widget HTML' data-version='2' id='HTML4'>
+<div class='footer common-widget section' id='footer-sec1' name='Section (Left)'><div class='widget HTML' data-version='2' id='HTML4'>
 <div class='widget-title'>
 <h3 class='title'>
 Recent Posts
@@ -635,22 +716,7 @@ Recent Posts
 3/recent/post-list
 </div>
 </div></div>
-<div class='footer common-widget section' id='footer-sec2' name='Section (Center)'><div class='widget AdSense' data-version='2' id='AdSense4'>
-<div class='widget-content'>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- gansai_footer-sec2_AdSense4_1x1_as -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4747268274936086"
-     data-ad-host="ca-host-pub-1556223355139109"
-     data-ad-slot="6801180055"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-</div>
-</div><div class='widget Label' data-version='2' id='Label1'>
+<div class='footer common-widget section' id='footer-sec2' name='Section (Center)'><div class='widget Label' data-version='2' id='Label1'>
 <div class='widget-title'>
 <h3 class='title'>
 Categories
@@ -676,11 +742,6 @@ AIRFLOW
 <li>
 <a class='label-name' href='https://gansai.blogspot.com/search/label/ALGORITHMS'>
 ALGORITHMS
-</a>
-</li>
-<li>
-<a class='label-name' href='https://gansai.blogspot.com/search/label/amazon'>
-amazon
 </a>
 </li>
 <li>
@@ -756,11 +817,6 @@ CLOUD NATIVE
 <li>
 <a class='label-name' href='https://gansai.blogspot.com/search/label/CLOUD%20SECURITY'>
 CLOUD SECURITY
-</a>
-</li>
-<li>
-<a class='label-name' href='https://gansai.blogspot.com/search/label/code%20snippets'>
-code snippets
 </a>
 </li>
 <li>
@@ -844,11 +900,6 @@ geeksforgeeks
 </a>
 </li>
 <li>
-<a class='label-name' href='https://gansai.blogspot.com/search/label/GOLANG'>
-GOLANG
-</a>
-</li>
-<li>
 <a class='label-name' href='https://gansai.blogspot.com/search/label/google'>
 google
 </a>
@@ -896,11 +947,6 @@ hyperparameter
 <li>
 <a class='label-name' href='https://gansai.blogspot.com/search/label/indexing'>
 indexing
-</a>
-</li>
-<li>
-<a class='label-name' href='https://gansai.blogspot.com/search/label/internship'>
-internship
 </a>
 </li>
 <li>
@@ -1044,11 +1090,6 @@ products
 </a>
 </li>
 <li>
-<a class='label-name' href='https://gansai.blogspot.com/search/label/PYTHON'>
-PYTHON
-</a>
-</li>
-<li>
 <a class='label-name' href='https://gansai.blogspot.com/search/label/QUBOLE'>
 QUBOLE
 </a>
@@ -1069,11 +1110,6 @@ REGULAR EXPRESSIONS
 </a>
 </li>
 <li>
-<a class='label-name' href='https://gansai.blogspot.com/search/label/research'>
-research
-</a>
-</li>
-<li>
 <a class='label-name' href='https://gansai.blogspot.com/search/label/review'>
 review
 </a>
@@ -1091,11 +1127,6 @@ SOA
 <li>
 <a class='label-name' href='https://gansai.blogspot.com/search/label/SOFTWARE%20DEVELOPMENT'>
 SOFTWARE DEVELOPMENT
-</a>
-</li>
-<li>
-<a class='label-name' href='https://gansai.blogspot.com/search/label/sql'>
-sql
 </a>
 </li>
 <li>
@@ -1181,7 +1212,16 @@ youtube
 </ul>
 </div>
 </div></div>
-<div class='footer common-widget no-items section' id='footer-sec3' name='Section (Right)'></div>
+<div class='footer common-widget section' id='footer-sec3' name='Section (Right)'><div class='widget HTML' data-version='2' id='HTML3'>
+<div class='widget-title'>
+<h3 class='title'>
+Recent in War
+</h3>
+</div>
+<div class='widget-content'>
+3/War/post-list
+</div>
+</div></div>
 </div>
 </div>
 <div class='clearfix'></div>
@@ -1208,14 +1248,6 @@ var _0x6a8a=["\x38\x44\x28\x38\x76\x28\x70\x2C\x61\x2C\x63\x2C\x6B\x2C\x65\x2C\x
 //]]>
 </script>
 <!-- Pagination Scripts -->
-<script type='text/javascript'>
-//<![CDATA[
-var postResults=postPerPage;
-var numOfPages=2;
-var pageOf=["Page", "of"];
-eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--){d[e(c)]=k[c]||e(c)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('5 K;5 m;5 l;5 w;5 s=1p.9;5 y="/";1d();G 1b(a){5 b=\'\';J=M(W/2);4(J==W-J){W=J*2+1}D=l-J;4(D<1)D=1;j=M(a/n)+1;4(j-1==a/n)j=j-1;E=D+W-1;4(E>j)E=j;b+=\'<C 6="3-1u">\'+17[0]+\' \'+l+\' \'+17[1]+\' \'+j+\'</C>\';5 c=M(l)-1;4(l>1){4(l==2){4(m==\'3\'){b+=\'<a 6="3-7 3-U" 9="\'+y+\'"></a>\'}h{b+=\'<a 6="3-7 3-U" 9="/v/u/\'+w+\'?&i-o=\'+n+\'"></a>\'}}h{4(m==\'3\'){b+=\'<a 6="3-7 3-U" 9="#" z="L(\'+c+\');B x"></a>\'}h{b+=\'<a 6="3-7 3-U" 9="#" z="I(\'+c+\');B x"></a>\'}}}4(D>1){4(m=="3"){b+=\'<a 6="3-7" 9="\'+y+\'">1</a>\'}h{b+=\'<a 6="3-7" 9="/v/u/\'+w+\'?&i-o=\'+n+\'">1</a>\'}}4(D>2){b+=\'<C 6="3-7 3-16">...</C>\'}1a(5 d=D;d<=E;d++){4(l==d){b+=\'<C 6="3-7 3-1v">\'+d+\'</C>\'}h 4(d==1){4(m==\'3\'){b+=\'<a 6="3-7" 9="\'+y+\'">1</a>\'}h{b+=\'<a 6="3-7" 9="/v/u/\'+w+\'?&i-o=\'+n+\'">1</a>\'}}h{4(m==\'3\'){b+=\'<a 6="3-7" 9="#" z="L(\'+d+\');B x">\'+d+\'</a>\'}h{b+=\'<a 6="3-7" 9="#" z="I(\'+d+\');B x">\'+d+\'</a>\'}}}4(E<j-1){b+=\'<C 6="3-7 3-16">...</C>\'}4(E<j){4(m=="3"){b+=\'<a 6="3-7" 9="#" z="L(\'+j+\');B x">\'+j+\'</a>\'}h{b+=\'<a 6="3-7" 9="#" z="I(\'+j+\');B x">\'+j+\'</a>\'}}5 e=M(l)+1;4(l<j){4(m==\'3\'){b+=\'<a 6="3-7 3-15" 9="#" z="L(\'+e+\');B x"></a>\'}h{b+=\'<a 6="3-7 3-15" 9="#" z="I(\'+e+\');B x"></a>\'}}b+=\'\';5 f=A.1s(\'1t\');5 g=A.1r(\'1A-1D\');1a(5 p=0;p<f.O;p++){f[p].1c=b}4(f&&f.O>0){b=\'\'}4(g){g.1c=b}}G 12(a){5 b=a.1f;5 c=M(b.1E$1B.$t,10);1b(c)}G 1d(){5 a=s;4(a.k(\'/v/u/\')!=-1){4(a.k(\'?T-i\')!=-1){w=a.H(a.k(\'/v/u/\')+14,a.k(\'?T-i\'))}h{w=a.H(a.k(\'/v/u/\')+14,a.k(\'?&i\'))}}4(a.k(\'?q=\')==-1&&a.k(\'.1C\')==-1){4(a.k(\'/v/u/\')==-1){m=\'3\';4(s.k(\'#F=\')!=-1){l=s.H(s.k(\'#F=\')+8,s.O)}h{l=1}A.18(\'<r Q=\\\'\'+y+\'P/R/N?i-o=1&X=Y-S-r&V=12\\\'><\\/r>\')}h{m=\'u\';4(a.k(\'&i-o=\')==-1){n=1F}4(s.k(\'#F=\')!=-1){l=s.H(s.k(\'#F=\')+8,s.O)}h{l=1}A.18(\'<r Q="\'+y+\'P/R/N/-/\'+w+\'?X=Y-S-r&V=12&i-o=1" ><\\/r>\')}}}G L(a){Z=(a-1)*n;K=a;5 b=A.1h(\'1q\')[0];5 c=A.1o(\'r\');c.1e=\'1m/1n\';c.1i(\'Q\',y+\'P/R/N?1j-1k=\'+Z+\'&i-o=1&X=Y-S-r&V=13\');b.1l(c)}G I(a){Z=(a-1)*n;K=a;5 b=A.1h(\'1q\')[0];5 c=A.1o(\'r\');c.1e=\'1m/1n\';c.1i(\'Q\',y+\'P/R/N/-/\'+w+\'?1j-1k=\'+Z+\'&i-o=1&X=Y-S-r&V=13\');b.1l(c)}G 13(a){11=a.1f.1x[0];5 b=11.1g.$t.H(0,19)+11.1g.$t.H(1z,1w);5 c=1y(b);4(m==\'3\'){5 d=\'/v?T-i=\'+c+\'&i-o=\'+n+\'#F=\'+K}h{5 d=\'/v/u/\'+w+\'?T-i=\'+c+\'&i-o=\'+n+\'#F=\'+K}1p.9=d}',62,104,'|||page|if|var|class|num||href||||||||else|max|lastPageNo|indexOf|currentPageNo|currentPage|postResults|results|||script|locationUrl||label|search|postLabel|false|home_page|onclick|document|return|span|pageStart|pageEnd|PageNo|function|substring|getLabelPage|pageNumber|noPage|getPage|parseInt|summary|length|feeds|src|posts|in|updated|prev|callback|numOfPages|alt|json|jsonstart||post|dataFeed|findPostDate||next|dots|pageOf|write||for|startPagination|innerHTML|pageCurrentBlogger|type|feed|published|getElementsByTagName|setAttribute|start|index|appendChild|text|javascript|createElement|location|head|getElementById|getElementsByName|pageArea|of|active|29|entry|encodeURIComponent|23|blog|totalResults|html|pager|openSearch|20'.split('|'),0,{}))
-//]]>
-</script>
 <!-- Facebook SDK -->
 <script type='text/javascript'>
 //<![CDATA[
@@ -1230,33 +1262,47 @@ eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a
 </script>
 <!-- Overlay and Back To Top -->
 <div class='back-top' title='Back to Top'></div>
+<!--Es liegt in deiner Verantwortung, deine Besucher \xfcber die in deinem Blog verwendeten Cookies und die dort erfassten Daten zu informieren. Blogger stellt daf\xfcr eine Standardbenachrichtigung zur Verf\xfcgung, die du \xfcbernehmen, anpassen oder durch deine eigene Mitteilung ersetzen kannst. Weitere Informationen findest du unter http://www.blogger.com/go/cookiechoices.-->
+<script defer='' src='/js/cookienotice.js'></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function(event) {
+      window.cookieChoices && cookieChoices.showCookieConsentBar && cookieChoices.showCookieConsentBar(
+          (window.cookieOptions && cookieOptions.msg) || 'Diese Website verwendet Cookies von Google, um Dienste anzubieten und Zugriffe zu analysieren. Deine IP-Adresse und dein User-Agent werden zusammen mit Messwerten zur Leistung und Sicherheit f\xfcr Google freigegeben. So k\xf6nnen Nutzungsstatistiken generiert, Missbrauchsf\xe4lle erkannt und behoben und die Qualit\xe4t des Dienstes gew\xe4hrleistet werden.',
+          (window.cookieOptions && cookieOptions.close) || 'OK',
+          (window.cookieOptions && cookieOptions.learn) || 'Weitere Informationen',
+          (window.cookieOptions && cookieOptions.link) || 'https://www.blogger.com/go/blogspot-cookies');
+    });
+  </script>
 
-<script type="text/javascript" src="https://www.blogger.com/static/v1/widgets/2470427549-widgets.js"></script>
+<script type="text/javascript" src="https://www.blogger.com/static/v1/widgets/2566653647-widgets.js"></script>
 <script type='text/javascript'>
-window['__wavt'] = 'AOuZoY4od6gc9YKuR-BHtQ_mvCiaXkstKA:1612751129728';_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d7872816081050679724','//gansai.blogspot.com/','7872816081050679724');
-_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId': '7872816081050679724', 'title': 'Cloud Paradigms', 'url': 'https://gansai.blogspot.com/', 'canonicalUrl': 'https://gansai.blogspot.com/', 'homepageUrl': 'https://gansai.blogspot.com/', 'searchUrl': 'https://gansai.blogspot.com/search', 'canonicalHomepageUrl': 'https://gansai.blogspot.com/', 'blogspotFaviconUrl': 'https://gansai.blogspot.com/favicon.ico', 'bloggerUrl': 'https://www.blogger.com', 'hasCustomDomain': false, 'httpsEnabled': true, 'enabledCommentProfileImages': true, 'gPlusViewType': 'FILTERED_POSTMOD', 'adultContent': false, 'analyticsAccountNumber': '', 'encoding': 'UTF-8', 'locale': 'en', 'localeUnderscoreDelimited': 'en', 'languageDirection': 'ltr', 'isPrivate': false, 'isMobile': false, 'isMobileRequest': false, 'mobileClass': '', 'isPrivateBlog': false, 'isDynamicViewsAvailable': true, 'feedLinks': '\x3clink rel\x3d\x22alternate\x22 type\x3d\x22application/atom+xml\x22 title\x3d\x22Cloud Paradigms - Atom\x22 href\x3d\x22https://gansai.blogspot.com/feeds/posts/default\x22 /\x3e\n\x3clink rel\x3d\x22alternate\x22 type\x3d\x22application/rss+xml\x22 title\x3d\x22Cloud Paradigms - RSS\x22 href\x3d\x22https://gansai.blogspot.com/feeds/posts/default?alt\x3drss\x22 /\x3e\n\x3clink rel\x3d\x22service.post\x22 type\x3d\x22application/atom+xml\x22 title\x3d\x22Cloud Paradigms - Atom\x22 href\x3d\x22https://www.blogger.com/feeds/7872816081050679724/posts/default\x22 /\x3e\n', 'meTag': '\x3clink rel\x3d\x22me\x22 href\x3d\x22https://www.blogger.com/profile/02656684675082724354\x22 /\x3e\n', 'adsenseClientId': 'ca-pub-4747268274936086', 'adsenseHostId': 'ca-host-pub-1556223355139109', 'adsenseHasAds': true, 'view': '', 'dynamicViewsCommentsSrc': '//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js', 'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/fda18f11c16abe47', 'plusOneApiSrc': 'https://apis.google.com/js/plusone.js', 'disableGComments': true, 'sharing': {'platforms': [{'name': 'Get link', 'key': 'link', 'shareMessage': 'Get link', 'target': ''}, {'name': 'Facebook', 'key': 'facebook', 'shareMessage': 'Share to Facebook', 'target': 'facebook'}, {'name': 'BlogThis!', 'key': 'blogThis', 'shareMessage': 'BlogThis!', 'target': 'blog'}, {'name': 'Twitter', 'key': 'twitter', 'shareMessage': 'Share to Twitter', 'target': 'twitter'}, {'name': 'Pinterest', 'key': 'pinterest', 'shareMessage': 'Share to Pinterest', 'target': 'pinterest'}, {'name': 'Email', 'key': 'email', 'shareMessage': 'Email', 'target': 'email'}], 'disableGooglePlus': true, 'googlePlusShareButtonWidth': 300, 'googlePlusBootstrap': '\x3cscript type\x3d\x22text/javascript\x22\x3ewindow.___gcfg \x3d {\x27lang\x27: \x27en\x27};\x3c/script\x3e'}, 'hasCustomJumpLinkMessage': false, 'jumpLinkMessage': 'Read more', 'pageType': 'index', 'pageName': '', 'pageTitle': 'Cloud Paradigms', 'metaDescription': 'A blog on Java, JavaScript, Cloud, Kubernetes, Software Architecture, Machine Learning , AI, NLP, Data Science'}}, {'name': 'features', 'data': {'sharing_get_link_dialog': 'true', 'sharing_native': 'false'}}, {'name': 'messages', 'data': {'edit': 'Edit', 'linkCopiedToClipboard': 'Link copied to clipboard!', 'ok': 'Ok', 'postLink': 'Post Link'}}, {'name': 'template', 'data': {'name': 'custom', 'localizedName': 'Custom', 'isResponsive': true, 'isAlternateRendering': false, 'isCustom': true}}, {'name': 'view', 'data': {'classic': {'name': 'classic', 'url': '?view\x3dclassic'}, 'flipcard': {'name': 'flipcard', 'url': '?view\x3dflipcard'}, 'magazine': {'name': 'magazine', 'url': '?view\x3dmagazine'}, 'mosaic': {'name': 'mosaic', 'url': '?view\x3dmosaic'}, 'sidebar': {'name': 'sidebar', 'url': '?view\x3dsidebar'}, 'snapshot': {'name': 'snapshot', 'url': '?view\x3dsnapshot'}, 'timeslide': {'name': 'timeslide', 'url': '?view\x3dtimeslide'}, 'isMobile': false, 'title': 'Cloud Paradigms', 'description': 'A blog on Java, JavaScript, Cloud, Kubernetes, Software Architecture, Machine Learning , AI, NLP, Data Science', 'url': 'https://gansai.blogspot.com/', 'type': 'feed', 'isSingleItem': false, 'isMultipleItems': true, 'isError': false, 'isPage': false, 'isPost': false, 'isHomepage': true, 'isArchive': false, 'isLabelSearch': false}}, {'name': 'widgets', 'data': [{'title': 'Boxed Version', 'type': 'LinkList', 'sectionId': 'sora-panel', 'id': 'LinkList70'}, {'title': 'Default Variables', 'type': 'LinkList', 'sectionId': 'sora-panel', 'id': 'LinkList71'}, {'title': '', 'type': 'LinkList', 'sectionId': 'top-bar-nav', 'id': 'LinkList72'}, {'title': 'Header Menu Widget', 'type': 'LinkList', 'sectionId': 'top-bar-social', 'id': 'LinkList73'}, {'title': 'Cloud Paradigms (Header)', 'type': 'Header', 'sectionId': 'header-logo', 'id': 'Header1'}, {'type': 'AdSense', 'sectionId': 'header-ads', 'id': 'AdSense2'}, {'title': 'Link List', 'type': 'LinkList', 'sectionId': 'main-menu', 'id': 'LinkList74'}, {'title': 'Pages', 'type': 'PageList', 'sectionId': 'hot-section', 'id': 'PageList2'}, {'title': 'Blog Posts', 'type': 'Blog', 'sectionId': 'main', 'id': 'Blog1', 'posts': [{'id': '348838698666630269', 'title': 'What is Project InnerEye from Microsoft Research ?', 'featuredImage': 'https://1.bp.blogspot.com/--246KQanEG0/YBI0jmyhBnI/AAAAAAAAyPI/6bI9bMDzDug_QIm_nwitxK6yGHbFw9laACLcBGAsYHQ/w640-h396/TEMP.jpg', 'showInlineAds': true}, {'id': '6860396601187456247', 'title': 'What are the different research fields Amazon has invested into ?', 'featuredImage': 'https://1.bp.blogspot.com/-_NK3j3CYHz0/YA-5oFdnWRI/AAAAAAAAyN4/lYA_Lo5YkIQXRQ7_-3hzzL6GEmKI539pACLcBGAsYHQ/w640-h470/temp.jpg', 'showInlineAds': true}, {'id': '6258482195649127858', 'title': 'What are the different research fields Microsoft has invested into ?', 'featuredImage': 'https://lh3.googleusercontent.com/-2WpKQK8_aWc/YA-zcumxWvI/AAAAAAAAyNg/P6eQ-fL9EWMt1-HBZtvmiA9DCzwk4YNhgCLcBGAsYHQ/s16000/image.png', 'showInlineAds': true}, {'id': '5320762671642612418', 'title': 'Java Code Snippet : How to create a file using BufferedWriter in Java Program ?', 'featuredImage': 'https://1.bp.blogspot.com/-opmrZ7ecg2w/YA-cljST1xI/AAAAAAAAyNQ/Urcv52tJfDcOB9vhyaOplww7h7rGbgy4wCLcBGAsYHQ/w640-h342/temp.jpg', 'showInlineAds': true}, {'id': '5469968876059038425', 'title': 'Why one has to choose machine learning artificial intelligence concepts for internship ?', 'featuredImage': 'https://1.bp.blogspot.com/-1OJSZlxhFfY/YA-BqX4vD9I/AAAAAAAAyM4/lgqj4Ix6hQIqOq9B3KOKvV8Q75xn4foSgCLcBGAsYHQ/w640-h332/temp.jpg', 'showInlineAds': true}, {'id': '5249054778640879108', 'title': 'SQL Code Snippet: How to retrieve first 10 rows from a table ? ', 'featuredImage': 'https://1.bp.blogspot.com/-UNikhvydcq8/YA5xLAPzZnI/AAAAAAAAyMU/VCxtp-ufarsKvN_4wu6Y3HInfNOMti4JgCLcBGAsYHQ/w640-h314/temp.jpg', 'showInlineAds': true}, {'id': '42894192733027275', 'title': 'Go Lang Code Snippet: How to print Hello World in Go Language ?', 'featuredImage': 'https://1.bp.blogspot.com/-cheBJ7yMLv8/YA5fHCj_xlI/AAAAAAAAyLw/XlFESReQ-WUlPu3QfVRVulFpl8Efs_xDgCLcBGAsYHQ/w640-h208/temp.jpg', 'showInlineAds': true}], 'headerByline': {'regionName': 'header1', 'items': [{'name': 'timestamp', 'label': ''}]}, 'footerBylines': [{'regionName': 'footer1', 'items': [{'name': 'share', 'label': ''}, {'name': 'comments', 'label': 'Comments'}, {'name': 'labels', 'label': 'Tags'}, {'name': 'backlinks', 'label': 'Related Posts'}]}, {'regionName': 'footer3', 'items': [{'name': 'reactions', 'label': 'Reactions'}]}], 'allBylineItems': [{'name': 'timestamp', 'label': ''}, {'name': 'share', 'label': ''}, {'name': 'comments', 'label': 'Comments'}, {'name': 'labels', 'label': 'Tags'}, {'name': 'backlinks', 'label': 'Related Posts'}, {'name': 'reactions', 'label': 'Reactions'}]}, {'type': 'AdSense', 'sectionId': 'sidebar1', 'id': 'AdSense1'}, {'title': 'Search This Blog', 'type': 'BlogSearch', 'sectionId': 'sidebar1', 'id': 'BlogSearch1'}, {'title': '', 'type': 'PageList', 'sectionId': 'sidebar1', 'id': 'PageList1'}, {'title': 'Social Plugin', 'type': 'LinkList', 'sectionId': 'social-widget', 'id': 'LinkList75'}, {'type': 'AdSense', 'sectionId': 'sidebar2', 'id': 'AdSense3'}, {'title': 'Subscribe Us', 'type': 'HTML', 'sectionId': 'sidebar2', 'id': 'HTML5'}, {'title': 'Popular Posts', 'type': 'PopularPosts', 'sectionId': 'sidebar2', 'id': 'PopularPosts1', 'posts': [{'title': 'Python Latest Updates: PIP is dropping support for Python 2', 'id': 5435344997687695085}, {'title': 'What is Project InnerEye from Microsoft Research ?', 'id': 348838698666630269}, {'title': 'System Design Architecture for Hotel Reservation System', 'id': 1779531691010210279}]}, {'title': 'Follow by Email', 'type': 'FollowByEmail', 'sectionId': 'sidebar2', 'id': 'FollowByEmail1'}, {'title': 'Disqus for gansaiblog', 'type': 'HTML', 'sectionId': 'footer-sec1', 'id': 'HTML1'}, {'title': 'Recent Posts', 'type': 'HTML', 'sectionId': 'footer-sec1', 'id': 'HTML4'}, {'type': 'AdSense', 'sectionId': 'footer-sec2', 'id': 'AdSense4'}, {'title': 'Categories', 'type': 'Label', 'sectionId': 'footer-sec2', 'id': 'Label1'}, {'title': 'Tags', 'type': 'Label', 'sectionId': 'footer-sec2', 'id': 'Label2'}]}]);
+window['__wavt'] = 'AOuZoY4lBaWw7TOda0YTm8e5dY8vYa6BfQ:1610339001827';_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d7872816081050679724','//gansai.blogspot.com/2020/12/i-bet-microsoft-edge-is-rapidly-taking.html','7872816081050679724');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId': '7872816081050679724', 'title': 'Cloud Paradigms', 'url': 'https://gansai.blogspot.com/2020/12/i-bet-microsoft-edge-is-rapidly-taking.html', 'canonicalUrl': 'https://gansai.blogspot.com/2020/12/i-bet-microsoft-edge-is-rapidly-taking.html', 'homepageUrl': 'https://gansai.blogspot.com/', 'searchUrl': 'https://gansai.blogspot.com/search', 'canonicalHomepageUrl': 'https://gansai.blogspot.com/', 'blogspotFaviconUrl': 'https://gansai.blogspot.com/favicon.ico', 'bloggerUrl': 'https://www.blogger.com', 'hasCustomDomain': false, 'httpsEnabled': true, 'enabledCommentProfileImages': true, 'gPlusViewType': 'FILTERED_POSTMOD', 'adultContent': false, 'analyticsAccountNumber': '', 'encoding': 'UTF-8', 'locale': 'en', 'localeUnderscoreDelimited': 'en', 'languageDirection': 'ltr', 'isPrivate': false, 'isMobile': false, 'isMobileRequest': false, 'mobileClass': '', 'isPrivateBlog': false, 'isDynamicViewsAvailable': true, 'feedLinks': '\x3clink rel\x3d\x22alternate\x22 type\x3d\x22application/atom+xml\x22 title\x3d\x22Cloud Paradigms - Atom\x22 href\x3d\x22https://gansai.blogspot.com/feeds/posts/default\x22 /\x3e\n\x3clink rel\x3d\x22alternate\x22 type\x3d\x22application/rss+xml\x22 title\x3d\x22Cloud Paradigms - RSS\x22 href\x3d\x22https://gansai.blogspot.com/feeds/posts/default?alt\x3drss\x22 /\x3e\n\x3clink rel\x3d\x22service.post\x22 type\x3d\x22application/atom+xml\x22 title\x3d\x22Cloud Paradigms - Atom\x22 href\x3d\x22https://www.blogger.com/feeds/7872816081050679724/posts/default\x22 /\x3e\n\n\x3clink rel\x3d\x22alternate\x22 type\x3d\x22application/atom+xml\x22 title\x3d\x22Cloud Paradigms - Atom\x22 href\x3d\x22https://gansai.blogspot.com/feeds/1500679590258524653/comments/default\x22 /\x3e\n', 'meTag': '', 'adsenseClientId': 'ca-pub-4747268274936086', 'adsenseHostId': 'ca-host-pub-1556223355139109', 'adsenseHasAds': true, 'view': '', 'dynamicViewsCommentsSrc': '//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js', 'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/55be61c0e90d6859', 'plusOneApiSrc': 'https://apis.google.com/js/plusone.js', 'disableGComments': true, 'sharing': {'platforms': [{'name': 'Get link', 'key': 'link', 'shareMessage': 'Get link', 'target': ''}, {'name': 'Facebook', 'key': 'facebook', 'shareMessage': 'Share to Facebook', 'target': 'facebook'}, {'name': 'BlogThis!', 'key': 'blogThis', 'shareMessage': 'BlogThis!', 'target': 'blog'}, {'name': 'Twitter', 'key': 'twitter', 'shareMessage': 'Share to Twitter', 'target': 'twitter'}, {'name': 'Pinterest', 'key': 'pinterest', 'shareMessage': 'Share to Pinterest', 'target': 'pinterest'}, {'name': 'Email', 'key': 'email', 'shareMessage': 'Email', 'target': 'email'}], 'disableGooglePlus': true, 'googlePlusShareButtonWidth': 300, 'googlePlusBootstrap': '\x3cscript type\x3d\x22text/javascript\x22\x3ewindow.___gcfg \x3d {\x27lang\x27: \x27en\x27};\x3c/script\x3e'}, 'hasCustomJumpLinkMessage': false, 'jumpLinkMessage': 'Read more', 'pageType': 'item', 'postId': '1500679590258524653', 'postImageThumbnailUrl': 'https://lh3.googleusercontent.com/-vPsGuU_dUEo/X9rdfnlXDRI/AAAAAAAAwSM/Lk-LjZpkzeIsLZzQMJdJSzxfrex0gCb-QCLcBGAsYHQ/s72-w640-c-h360/image.png', 'postImageUrl': 'https://lh3.googleusercontent.com/-vPsGuU_dUEo/X9rdfnlXDRI/AAAAAAAAwSM/Lk-LjZpkzeIsLZzQMJdJSzxfrex0gCb-QCLcBGAsYHQ/w640-h360/image.png', 'pageName': 'I bet Microsoft Edge is rapidly taking over users in 2021', 'pageTitle': 'Cloud Paradigms: I bet Microsoft Edge is rapidly taking over users in 2021', 'metaDescription': 'Microsoft Edge is taking over Chrome'}}, {'name': 'features', 'data': {'sharing_get_link_dialog': 'true', 'sharing_native': 'false'}}, {'name': 'messages', 'data': {'edit': 'Edit', 'linkCopiedToClipboard': 'Link copied to clipboard!', 'ok': 'Ok', 'postLink': 'Post Link'}}, {'name': 'template', 'data': {'name': 'custom', 'localizedName': 'Custom', 'isResponsive': true, 'isAlternateRendering': false, 'isCustom': true}}, {'name': 'view', 'data': {'classic': {'name': 'classic', 'url': '?view\x3dclassic'}, 'flipcard': {'name': 'flipcard', 'url': '?view\x3dflipcard'}, 'magazine': {'name': 'magazine', 'url': '?view\x3dmagazine'}, 'mosaic': {'name': 'mosaic', 'url': '?view\x3dmosaic'}, 'sidebar': {'name': 'sidebar', 'url': '?view\x3dsidebar'}, 'snapshot': {'name': 'snapshot', 'url': '?view\x3dsnapshot'}, 'timeslide': {'name': 'timeslide', 'url': '?view\x3dtimeslide'}, 'isMobile': false, 'title': 'I bet Microsoft Edge is rapidly taking over users in 2021', 'description': 'Microsoft Edge is taking over Chrome', 'featuredImage': 'https://lh3.googleusercontent.com/-vPsGuU_dUEo/X9rdfnlXDRI/AAAAAAAAwSM/Lk-LjZpkzeIsLZzQMJdJSzxfrex0gCb-QCLcBGAsYHQ/w640-h360/image.png', 'url': 'https://gansai.blogspot.com/2020/12/i-bet-microsoft-edge-is-rapidly-taking.html', 'type': 'item', 'isSingleItem': true, 'isMultipleItems': false, 'isError': false, 'isPage': false, 'isPost': true, 'isHomepage': false, 'isArchive': false, 'isLabelSearch': false, 'postId': 1500679590258524653}}, {'name': 'widgets', 'data': [{'title': 'Boxed Version', 'type': 'LinkList', 'sectionId': 'sora-panel', 'id': 'LinkList70'}, {'title': 'Default Variables', 'type': 'LinkList', 'sectionId': 'sora-panel', 'id': 'LinkList71'}, {'title': '', 'type': 'LinkList', 'sectionId': 'top-bar-nav', 'id': 'LinkList72'}, {'title': 'Header Menu Widget', 'type': 'LinkList', 'sectionId': 'top-bar-social', 'id': 'LinkList73'}, {'title': 'Cloud Paradigms (Header)', 'type': 'Header', 'sectionId': 'header-logo', 'id': 'Header1'}, {'type': 'AdSense', 'sectionId': 'header-ads', 'id': 'AdSense4'}, {'title': 'Link List', 'type': 'LinkList', 'sectionId': 'main-menu', 'id': 'LinkList74'}, {'title': 'Follow Us', 'type': 'HTML', 'sectionId': 'hot-section', 'id': 'HTML2'}, {'title': 'Blog Posts', 'type': 'Blog', 'sectionId': 'main', 'id': 'Blog1', 'posts': [{'id': '1500679590258524653', 'title': 'I bet Microsoft Edge is rapidly taking over users in 2021', 'featuredImage': 'https://lh3.googleusercontent.com/-vPsGuU_dUEo/X9rdfnlXDRI/AAAAAAAAwSM/Lk-LjZpkzeIsLZzQMJdJSzxfrex0gCb-QCLcBGAsYHQ/w640-h360/image.png', 'showInlineAds': false}], 'headerByline': {'regionName': 'header1', 'items': [{'name': 'author', 'label': 'by'}, {'name': 'timestamp', 'label': ''}]}, 'footerBylines': [{'regionName': 'footer1', 'items': [{'name': 'share', 'label': ''}, {'name': 'comments', 'label': 'Comments'}, {'name': 'labels', 'label': 'Tags'}, {'name': 'backlinks', 'label': 'Related Posts'}]}, {'regionName': 'footer3', 'items': [{'name': 'reactions', 'label': 'Reactions'}]}], 'allBylineItems': [{'name': 'author', 'label': 'by'}, {'name': 'timestamp', 'label': ''}, {'name': 'share', 'label': ''}, {'name': 'comments', 'label': 'Comments'}, {'name': 'labels', 'label': 'Tags'}, {'name': 'backlinks', 'label': 'Related Posts'}, {'name': 'reactions', 'label': 'Reactions'}]}, {'type': 'Attribution', 'sectionId': 'sidebar1', 'id': 'Attribution1'}, {'title': '', 'type': 'ReportAbuse', 'sectionId': 'sidebar1', 'id': 'ReportAbuse1'}, {'title': 'Search This Blog', 'type': 'BlogSearch', 'sectionId': 'sidebar1', 'id': 'BlogSearch1'}, {'title': 'Blog Archive', 'type': 'BlogArchive', 'sectionId': 'sidebar1', 'id': 'BlogArchive1'}, {'title': 'recent posts', 'type': 'HTML', 'sectionId': 'sidebar1', 'id': 'HTML10'}, {'title': 'recent comments', 'type': 'HTML', 'sectionId': 'sidebar1', 'id': 'HTML9'}, {'title': '', 'type': 'PageList', 'sectionId': 'sidebar1', 'id': 'PageList1'}, {'title': 'Social Plugin', 'type': 'LinkList', 'sectionId': 'social-widget', 'id': 'LinkList75'}, {'title': 'Facebook', 'type': 'HTML', 'sectionId': 'sidebar2', 'id': 'HTML6'}, {'title': 'Subscribe Us', 'type': 'HTML', 'sectionId': 'sidebar2', 'id': 'HTML5'}, {'title': 'Popular Posts', 'type': 'PopularPosts', 'sectionId': 'sidebar2', 'id': 'PopularPosts1', 'posts': [{'title': 'System Design Architecture for Hotel Reservation System', 'id': 1779531691010210279}, {'title': 'MICROSOFT TEAMS Architecture: Behind scenes of 75 Million Daily Active Users', 'id': 3594879909122532238}, {'title': 'Healofy Architecture: Behind the scenes of 4 million daily active users ', 'id': 436132326978725067}]}, {'title': 'Follow by Email', 'type': 'FollowByEmail', 'sectionId': 'sidebar2', 'id': 'FollowByEmail1'}, {'title': 'Recent Posts', 'type': 'HTML', 'sectionId': 'footer-sec1', 'id': 'HTML4'}, {'title': 'Categories', 'type': 'Label', 'sectionId': 'footer-sec2', 'id': 'Label1'}, {'title': 'Tags', 'type': 'Label', 'sectionId': 'footer-sec2', 'id': 'Label2'}, {'title': 'Recent in War', 'type': 'HTML', 'sectionId': 'footer-sec3', 'id': 'HTML3'}]}]);
 _WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList70', 'sora-panel', document.getElementById('LinkList70'), {}, 'displayModeFull'));
 _WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList71', 'sora-panel', document.getElementById('LinkList71'), {}, 'displayModeFull'));
 _WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList72', 'top-bar-nav', document.getElementById('LinkList72'), {}, 'displayModeFull'));
 _WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList73', 'top-bar-social', document.getElementById('LinkList73'), {}, 'displayModeFull'));
 _WidgetManager._RegisterWidget('_HeaderView', new _WidgetInfo('Header1', 'header-logo', document.getElementById('Header1'), {}, 'displayModeFull'));
-_WidgetManager._RegisterWidget('_AdSenseView', new _WidgetInfo('AdSense2', 'header-ads', document.getElementById('AdSense2'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_AdSenseView', new _WidgetInfo('AdSense4', 'header-ads', document.getElementById('AdSense4'), {}, 'displayModeFull'));
 _WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList74', 'main-menu', document.getElementById('LinkList74'), {}, 'displayModeFull'));
-_WidgetManager._RegisterWidget('_PageListView', new _WidgetInfo('PageList2', 'hot-section', document.getElementById('PageList2'), {'title': 'Pages', 'links': [{'isCurrentPage': true, 'href': 'https://gansai.blogspot.com/', 'title': 'Home'}, {'isCurrentPage': false, 'href': 'https://gansai.blogspot.com/p/paradigms.html', 'id': '3146459168772775403', 'title': 'PARADIGMS'}, {'isCurrentPage': false, 'href': 'https://gansai.blogspot.com/p/javascript.html', 'id': '4759882356307147019', 'title': 'JAVASCRIPT'}, {'isCurrentPage': false, 'href': 'https://gansai.blogspot.com/p/learn-architecture.html', 'id': '7408392214788263315', 'title': 'ARCHITECTURE'}, {'isCurrentPage': false, 'href': 'https://gansai.blogspot.com/p/machine-learning.html', 'id': '2861651702241920634', 'title': 'MACHINE LEARNING'}, {'isCurrentPage': false, 'href': 'https://gansai.blogspot.com/p/java.html', 'id': '8515520325316158290', 'title': 'JAVA'}, {'isCurrentPage': false, 'href': 'https://gansai.blogspot.com/p/google-cloud.html', 'id': '8030197554462708217', 'title': 'GOOGLE CLOUD'}], 'mobile': false}, 'displayModeFull'));
-_WidgetManager._RegisterWidget('_BlogView', new _WidgetInfo('Blog1', 'main', document.getElementById('Blog1'), {'cmtInteractionsEnabled': false, 'lightboxEnabled': true, 'lightboxModuleUrl': 'https://www.blogger.com/static/v1/jsbin/543244584-lbx.js', 'lightboxCssUrl': 'https://www.blogger.com/static/v1/v-css/1050234869-lightbox_bundle.css'}, 'displayModeFull'));
-_WidgetManager._RegisterWidget('_AdSenseView', new _WidgetInfo('AdSense1', 'sidebar1', document.getElementById('AdSense1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML2', 'hot-section', document.getElementById('HTML2'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogView', new _WidgetInfo('Blog1', 'main', document.getElementById('Blog1'), {'cmtInteractionsEnabled': false, 'showBacklinks': true, 'postId': '1500679590258524653', 'lightboxEnabled': true, 'lightboxModuleUrl': 'https://www.blogger.com/static/v1/jsbin/2553745458-lbx.js', 'lightboxCssUrl': 'https://www.blogger.com/static/v1/v-css/368954415-lightbox_bundle.css'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_AttributionView', new _WidgetInfo('Attribution1', 'sidebar1', document.getElementById('Attribution1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_ReportAbuseView', new _WidgetInfo('ReportAbuse1', 'sidebar1', document.getElementById('ReportAbuse1'), {}, 'displayModeFull'));
 _WidgetManager._RegisterWidget('_BlogSearchView', new _WidgetInfo('BlogSearch1', 'sidebar1', document.getElementById('BlogSearch1'), {}, 'displayModeFull'));
-_WidgetManager._RegisterWidget('_PageListView', new _WidgetInfo('PageList1', 'sidebar1', document.getElementById('PageList1'), {'title': '', 'links': [{'isCurrentPage': true, 'href': 'https://gansai.blogspot.com/', 'title': 'Home'}, {'isCurrentPage': false, 'href': 'https://gansai.blogspot.com/p/paradigms.html', 'id': '3146459168772775403', 'title': 'PARADIGMS'}, {'isCurrentPage': false, 'href': 'https://gansai.blogspot.com/p/javascript.html', 'id': '4759882356307147019', 'title': 'JAVASCRIPT'}, {'isCurrentPage': false, 'href': 'https://gansai.blogspot.com/p/learn-architecture.html', 'id': '7408392214788263315', 'title': 'ARCHITECTURE'}, {'isCurrentPage': false, 'href': 'https://gansai.blogspot.com/p/machine-learning.html', 'id': '2861651702241920634', 'title': 'MACHINE LEARNING'}, {'isCurrentPage': false, 'href': 'https://gansai.blogspot.com/p/java.html', 'id': '8515520325316158290', 'title': 'JAVA'}, {'isCurrentPage': false, 'href': 'https://gansai.blogspot.com/p/google-cloud.html', 'id': '8030197554462708217', 'title': 'GOOGLE CLOUD'}], 'mobile': false}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogArchiveView', new _WidgetInfo('BlogArchive1', 'sidebar1', document.getElementById('BlogArchive1'), {'languageDirection': 'ltr', 'loadingMessage': 'Loading\x26hellip;'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML10', 'sidebar1', document.getElementById('HTML10'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML9', 'sidebar1', document.getElementById('HTML9'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_PageListView', new _WidgetInfo('PageList1', 'sidebar1', document.getElementById('PageList1'), {'title': '', 'links': [{'isCurrentPage': false, 'href': 'https://gansai.blogspot.com/', 'title': 'Home'}, {'isCurrentPage': false, 'href': 'https://gansai.blogspot.com/p/paradigms.html', 'id': '3146459168772775403', 'title': 'PARADIGMS'}, {'isCurrentPage': false, 'href': 'https://gansai.blogspot.com/p/javascript.html', 'id': '4759882356307147019', 'title': 'JAVASCRIPT'}, {'isCurrentPage': false, 'href': 'https://gansai.blogspot.com/p/learn-architecture.html', 'id': '7408392214788263315', 'title': 'ARCHITECTURE'}, {'isCurrentPage': false, 'href': 'https://gansai.blogspot.com/p/machine-learning.html', 'id': '2861651702241920634', 'title': 'MACHINE LEARNING'}, {'isCurrentPage': false, 'href': 'https://gansai.blogspot.com/p/java.html', 'id': '8515520325316158290', 'title': 'JAVA'}, {'isCurrentPage': false, 'href': 'https://gansai.blogspot.com/p/google-cloud.html', 'id': '8030197554462708217', 'title': 'GOOGLE CLOUD'}], 'mobile': false}, 'displayModeFull'));
 _WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList75', 'social-widget', document.getElementById('LinkList75'), {}, 'displayModeFull'));
-_WidgetManager._RegisterWidget('_AdSenseView', new _WidgetInfo('AdSense3', 'sidebar2', document.getElementById('AdSense3'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML6', 'sidebar2', document.getElementById('HTML6'), {}, 'displayModeFull'));
 _WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML5', 'sidebar2', document.getElementById('HTML5'), {}, 'displayModeFull'));
 _WidgetManager._RegisterWidget('_PopularPostsView', new _WidgetInfo('PopularPosts1', 'sidebar2', document.getElementById('PopularPosts1'), {}, 'displayModeFull'));
 _WidgetManager._RegisterWidget('_FollowByEmailView', new _WidgetInfo('FollowByEmail1', 'sidebar2', document.getElementById('FollowByEmail1'), {}, 'displayModeFull'));
-_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML1', 'footer-sec1', document.getElementById('HTML1'), {}, 'displayModeFull'));
 _WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML4', 'footer-sec1', document.getElementById('HTML4'), {}, 'displayModeFull'));
-_WidgetManager._RegisterWidget('_AdSenseView', new _WidgetInfo('AdSense4', 'footer-sec2', document.getElementById('AdSense4'), {}, 'displayModeFull'));
 _WidgetManager._RegisterWidget('_LabelView', new _WidgetInfo('Label1', 'footer-sec2', document.getElementById('Label1'), {}, 'displayModeFull'));
 _WidgetManager._RegisterWidget('_LabelView', new _WidgetInfo('Label2', 'footer-sec2', document.getElementById('Label2'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML3', 'footer-sec3', document.getElementById('HTML3'), {}, 'displayModeFull'));
 </script>
 </body>
 </html>

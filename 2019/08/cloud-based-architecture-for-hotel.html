@@ -2,7 +2,7 @@
 <html class='ltr' dir='ltr' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
 <head>
 <meta content='width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1' name='viewport'/>
-<title>Cloud Paradigms</title>
+<title>System Design Architecture for Hotel Reservation System</title>
 <meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
 <!-- Chrome, Firefox OS and Opera -->
 <meta content='#f9f9f9' name='theme-color'/>
@@ -10,25 +10,20 @@
 <meta content='#f9f9f9' name='msapplication-navbutton-color'/>
 <meta content='blogger' name='generator'/>
 <link href='https://gansai.blogspot.com/favicon.ico' rel='icon' type='image/x-icon'/>
-<link href='https://gansai.blogspot.com/' rel='canonical'/>
+<link href='https://gansai.blogspot.com/2019/08/cloud-based-architecture-for-hotel.html' rel='canonical'/>
 <link rel="alternate" type="application/atom+xml" title="Cloud Paradigms - Atom" href="https://gansai.blogspot.com/feeds/posts/default" />
 <link rel="alternate" type="application/rss+xml" title="Cloud Paradigms - RSS" href="https://gansai.blogspot.com/feeds/posts/default?alt=rss" />
-<link rel="service.post" type="application/atom+xml" title="Cloud Paradigms - Atom" href="https://www.blogger.com/feeds/7872816081050679724/posts/default" />
-<link rel="me" href="https://www.blogger.com/profile/02656684675082724354" />
+<link rel="service.post" type="application/atom+xml" title="Cloud Paradigms - Atom" href="https://draft.blogger.com/feeds/7872816081050679724/posts/default" />
+
+<link rel="alternate" type="application/atom+xml" title="Cloud Paradigms - Atom" href="https://gansai.blogspot.com/feeds/1779531691010210279/comments/default" />
 <!--Can't find substitution for tag [blog.ieCssRetrofitLinks]-->
-<meta content='A blog on Java, JavaScript, Cloud, Kubernetes, Software Architecture, Machine Learning , AI, NLP, Data Science' name='description'/>
-<meta content='https://gansai.blogspot.com/' property='og:url'/>
-<meta content='Cloud Paradigms' property='og:title'/>
-<meta content='A blog on Java, JavaScript, Cloud, Kubernetes, Software Architecture, Machine Learning , AI, NLP, Data Science' property='og:description'/>
-<meta content='https://1.bp.blogspot.com/--246KQanEG0/YBI0jmyhBnI/AAAAAAAAyPI/6bI9bMDzDug_QIm_nwitxK6yGHbFw9laACLcBGAsYHQ/w1200-h630-p-k-no-nu/TEMP.jpg' property='og:image'/>
-<meta content='https://1.bp.blogspot.com/-_NK3j3CYHz0/YA-5oFdnWRI/AAAAAAAAyN4/lYA_Lo5YkIQXRQ7_-3hzzL6GEmKI539pACLcBGAsYHQ/w1200-h630-p-k-no-nu/temp.jpg' property='og:image'/>
-<meta content='https://lh3.googleusercontent.com/-2WpKQK8_aWc/YA-zcumxWvI/AAAAAAAAyNg/P6eQ-fL9EWMt1-HBZtvmiA9DCzwk4YNhgCLcBGAsYHQ/w1200-h630-p-k-no-nu/image.png' property='og:image'/>
-<meta content='https://1.bp.blogspot.com/-opmrZ7ecg2w/YA-cljST1xI/AAAAAAAAyNQ/Urcv52tJfDcOB9vhyaOplww7h7rGbgy4wCLcBGAsYHQ/w1200-h630-p-k-no-nu/temp.jpg' property='og:image'/>
-<meta content='https://1.bp.blogspot.com/-1OJSZlxhFfY/YA-BqX4vD9I/AAAAAAAAyM4/lgqj4Ix6hQIqOq9B3KOKvV8Q75xn4foSgCLcBGAsYHQ/w1200-h630-p-k-no-nu/temp.jpg' property='og:image'/>
-<meta content='https://1.bp.blogspot.com/-UNikhvydcq8/YA5xLAPzZnI/AAAAAAAAyMU/VCxtp-ufarsKvN_4wu6Y3HInfNOMti4JgCLcBGAsYHQ/w1200-h630-p-k-no-nu/temp.jpg' property='og:image'/>
-<meta content='https://1.bp.blogspot.com/-cheBJ7yMLv8/YA5fHCj_xlI/AAAAAAAAyLw/XlFESReQ-WUlPu3QfVRVulFpl8Efs_xDgCLcBGAsYHQ/w1200-h630-p-k-no-nu/temp.jpg' property='og:image'/>
+<link href='https://4.bp.blogspot.com/-fpu58PFPbOA/XWol1fE6oII/AAAAAAAAmXE/hYTwlbbu9-cIxEX_wGMfVKvxIUvW_xsPQCK4BGAYYCw/s400/francesca-saraco-_dS27XGgRyQ-unsplash.jpg' rel='image_src'/>
+<meta content='Hello there. Got a minute? Read on to understand architectural aspects of online hotel reservation system' name='description'/>
+<meta content='https://gansai.blogspot.com/2019/08/cloud-based-architecture-for-hotel.html' property='og:url'/>
+<meta content='System Design Architecture for Hotel Reservation System' property='og:title'/>
+<meta content='Hello there. Got a minute? Read on to understand architectural aspects of online hotel reservation system' property='og:description'/>
+<meta content='https://4.bp.blogspot.com/-fpu58PFPbOA/XWol1fE6oII/AAAAAAAAmXE/hYTwlbbu9-cIxEX_wGMfVKvxIUvW_xsPQCK4BGAYYCw/w1200-h630-p-k-no-nu/francesca-saraco-_dS27XGgRyQ-unsplash.jpg' property='og:image'/>
 <!--[if IE]> <script> (function() { var html5 = ("abbr,article,aside,audio,canvas,datalist,details," + "figure,footer,header,hgroup,mark,menu,meter,nav,output," + "progress,section,time,video").split(','); for (var i = 0; i < html5.length; i++) { document.createElement(html5[i]); } try { document.execCommand('BackgroundImageCache', false, true); } catch(e) {} })(); </script> <![endif]-->
-<script type='application/ld+json'>{"@context":"http://schema.org","@type":"WebSite","name":"Cloud Paradigms","url":"https://gansai.blogspot.com/","potentialAction":{"@type":"SearchAction","target":"https://gansai.blogspot.com/search?q={search_term_string}","query-input":"required name=search_term_string"}}</script>
 <!-- Google Fonts -->
 <link href='//fonts.googleapis.com/css?family=Poppins:400,400i,500,500i,600,600i,700,700i' media='all' rel='stylesheet' type='text/css'/>
 <link href='https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet'/>
@@ -63,11 +58,12 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
 //]]>
 </script>
 <!-- Google Analytics -->
+<link href='https://draft.blogger.com/dyn-css/authorization.css?targetBlogID=7872816081050679724&amp;zx=941dcf5b-bd2f-4bfa-8103-301e3764fb01' media='none' onload='if(media!=&#39;all&#39;)media=&#39;all&#39;' rel='stylesheet'/><noscript><link href='https://draft.blogger.com/dyn-css/authorization.css?targetBlogID=7872816081050679724&amp;zx=941dcf5b-bd2f-4bfa-8103-301e3764fb01' rel='stylesheet'/></noscript>
 
 <!-- data-ad-client=ca-pub-4747268274936086 -->
 
 </head>
-<body class='index home'>
+<body class='item'>
 <!-- Theme Options -->
 <div class='theme-options' style='display:none'>
 <div class='sora-panel section' id='sora-panel' name='Theme Options'><div class='widget LinkList' data-version='2' id='LinkList70'>
@@ -137,7 +133,9 @@ var monthFormat = ["January", "February", "March", "April", "May", "June", "July
 <div class='header-logo section' id='header-logo' name='Header Logo'><div class='widget Header' data-version='2' id='Header1'>
 <div class='header-widget'>
 <h1>
+<a href='https://gansai.blogspot.com/'>
 Cloud Paradigms
+</a>
 </h1>
 </div>
 </div></div>
@@ -193,217 +191,335 @@ Cloud Paradigms
 </div>
 </div>
 <div class='clearfix'></div>
-<!-- Featured Wrapper -->
-<div class='row' id='hot-wrapper'>
-<div class='section' id='hot-section' name='Hot Posts'><div class='widget PageList' data-version='2' id='PageList2'>
-<div class='widget-title'>
-<h3 class='title'>
-Pages
-</h3>
-</div>
-<div class='widget-content'>
-<ul>
-<li class='selected'>
-<a href='https://gansai.blogspot.com/'>Home</a>
-</li>
-<li>
-<a href='https://gansai.blogspot.com/p/paradigms.html'>PARADIGMS</a>
-</li>
-<li>
-<a href='https://gansai.blogspot.com/p/javascript.html'>JAVASCRIPT</a>
-</li>
-<li>
-<a href='https://gansai.blogspot.com/p/learn-architecture.html'>ARCHITECTURE</a>
-</li>
-<li>
-<a href='https://gansai.blogspot.com/p/machine-learning.html'>MACHINE LEARNING</a>
-</li>
-<li>
-<a href='https://gansai.blogspot.com/p/java.html'>JAVA</a>
-</li>
-<li>
-<a href='https://gansai.blogspot.com/p/google-cloud.html'>GOOGLE CLOUD</a>
-</li>
-</ul>
-</div>
-</div></div>
-</div>
-<div class='clearfix'></div>
 <!-- Content Wrapper -->
 <div class='row' id='content-wrapper'>
 <div class='container'>
 <!-- Main Wrapper -->
 <div id='main-wrapper'>
-<!-- Featured Wrapper -->
-<div id='feat-wrapper'>
-<div class='big-feat no-items section' id='feat-section' name='Featured Post'>
-</div>
-</div>
-<div class='clearfix'></div>
 <div class='main section' id='main' name='Main Posts'><div class='widget Blog' data-version='2' id='Blog1'>
-<div class='blog-posts hfeed container index-post-wrap'>
-<h3 class='home-title'><span>Recent posts</span></h3>
-<div class='grid-posts'>
-<div class='blog-post hentry index-post'>
-<div class='index-post-inner'>
-<div class='post-image-wrap'>
-<a class='post-image-link' href='https://gansai.blogspot.com/2021/01/what-is-project-innereye-from-microsoft.html'>
-<img alt='What is Project InnerEye from Microsoft Research ?' class='post-thumb' src='https://1.bp.blogspot.com/--246KQanEG0/YBI0jmyhBnI/AAAAAAAAyPI/6bI9bMDzDug_QIm_nwitxK6yGHbFw9laACLcBGAsYHQ/w680/TEMP.jpg'/>
-</a>
-<span class='post-tag index-post-tag'>
-research
-</span>
-</div>
-<div class='post-info'>
-<h2 class='post-title'>
-<a href='https://gansai.blogspot.com/2021/01/what-is-project-innereye-from-microsoft.html'>What is Project InnerEye from Microsoft Research ?</a>
-</h2>
+<div class='blog-posts hfeed container item-post-wrap'>
+<div class='blog-post hentry item-post'>
+<script type='application/ld+json'>{
+  "@context": "http://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://gansai.blogspot.com/2019/08/cloud-based-architecture-for-hotel.html"
+  },
+  "headline": "System Design Architecture for Hotel Reservation System","description": "Photo by&#160; Francesca Saraco &#160;on&#160; Unsplash  Before you read further, if you are interested, I have written a post on Microsoft Teams ...","datePublished": "2019-08-31T13:15:00+05:30",
+  "dateModified": "2020-08-27T09:34:42+05:30","image": {
+    "@type": "ImageObject","url": "https://4.bp.blogspot.com/-fpu58PFPbOA/XWol1fE6oII/AAAAAAAAmXE/hYTwlbbu9-cIxEX_wGMfVKvxIUvW_xsPQCK4BGAYYCw/w1200-h630-p-k-no-nu/francesca-saraco-_dS27XGgRyQ-unsplash.jpg",
+    "height": 630,
+    "width": 1200},"publisher": {
+    "@type": "Organization",
+    "name": "Blogger",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://lh3.googleusercontent.com/ULB6iBuCeTVvSjjjU1A-O8e9ZpVba6uvyhtiWRti_rBAs9yMYOFBujxriJRZ-A=h60",
+      "width": 206,
+      "height": 60
+    }
+  },"author": {
+    "@type": "Person",
+    "name": "Ganesh Swamypillai"
+  }
+}</script>
+<nav id='breadcrumb'><a href='https://gansai.blogspot.com/'>Home</a><em class='delimiter'></em><a class='b-label' href='https://gansai.blogspot.com/search/label/MICROSERVICES'>MICROSERVICES</a><em class='delimiter'></em><span class='current'>System Design Architecture for Hotel Reservation System</span></nav>
+<script type='application/ld+json'>
+              {
+                "@context": "http://schema.org",
+                "@type": "BreadcrumbList",
+                "@id": "#Breadcrumb",
+                "itemListElement": [{
+                  "@type": "ListItem",
+                  "position": 1,
+                  "item": {
+                    "name": "Home",
+                    "@id": "https://gansai.blogspot.com/"
+                  }
+                },{
+                  "@type": "ListItem",
+                  "position": 2,
+                  "item": {
+                    "name": "MICROSERVICES",
+                    "@id": "https://gansai.blogspot.com/search/label/MICROSERVICES"
+                  }
+                },{
+                  "@type": "ListItem",
+                  "position": 3,
+                  "item": {
+                    "name": "System Design Architecture for Hotel Reservation System",
+                    "@id": "https://gansai.blogspot.com/2019/08/cloud-based-architecture-for-hotel.html"
+                  }
+                }]
+              }
+            </script>
+<h1 class='post-title'>
+System Design Architecture for Hotel Reservation System
+</h1>
 <div class='post-meta'>
-<span class='post-date published' datetime='2021-01-28T10:08:00+05:30'>January 28, 2021</span>
+<span class='post-date published' datetime='2019-08-31T13:15:00+05:30'>August 31, 2019</span>
 </div>
-<p class='post-snippet'>What is Project InnerEye from Microsoft Research ? ( courtesy: Microsoft Resea&#8230;</p>
-<a class='read-more' href='https://gansai.blogspot.com/2021/01/what-is-project-innereye-from-microsoft.html'>Read more</a>
+<div class='post-body post-content'>
+<div dir="ltr" style="text-align: left;" trbidi="on">
+<span face="" style="font-size: large;"><br /></span>
+<span face="" style="font-size: large;"><br /></span><br />
+<div style="text-align: center;">
+<span face="" style="font-size: large;"><a href="//4.bp.blogspot.com/-fpu58PFPbOA/XWol1fE6oII/AAAAAAAAmXE/hYTwlbbu9-cIxEX_wGMfVKvxIUvW_xsPQCK4BGAYYCw/s1600/francesca-saraco-_dS27XGgRyQ-unsplash.jpg"><span face="" style="font-size: large;"><img border="0" height="265" src="https://4.bp.blogspot.com/-fpu58PFPbOA/XWol1fE6oII/AAAAAAAAmXE/hYTwlbbu9-cIxEX_wGMfVKvxIUvW_xsPQCK4BGAYYCw/s400/francesca-saraco-_dS27XGgRyQ-unsplash.jpg" width="400" /></span></a></span></div>
+<br />
+<span face="" style="font-size: large;"><br /></span>
+<br />
+<div style="text-align: center;">
+<span face="" style="font-size: large;"><span style="background-color: whitesmoke; color: #111111; white-space: nowrap;">Photo by&nbsp;</span><a href="https://unsplash.com/@fransaraco?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" style="background-color: whitesmoke; box-sizing: border-box; color: #767676; transition: all 0.1s ease-in-out 0s, all 0.1s ease-in-out 0s; white-space: nowrap;">Francesca Saraco</a><span style="background-color: whitesmoke; color: #111111; white-space: nowrap;">&nbsp;on&nbsp;</span><a href="https://unsplash.com/search/photos/hotel-booking?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" style="background-color: whitesmoke; box-sizing: border-box; color: #767676; transition: all 0.1s ease-in-out 0s, all 0.1s ease-in-out 0s; white-space: nowrap;">Unsplash</a></span></div>
+<span face="" style="font-size: large;"><br /></span><span face="" style="font-size: large;">Before you read further, if you are interested, I have written a post on <a href="https://gansai.blogspot.com/2020/03/microsoft-teams-architecture.html">Microsoft Teams Architecture</a>, check it out.</span></div><div dir="ltr" style="text-align: left;" trbidi="on"><span face="" style="font-size: large;"><br /></span></div><div dir="ltr" style="text-align: left;" trbidi="on"><span face="" style="font-size: large;">Let us consider the problem of developing an cloud-based application for hotel booking or reservations.</span><br />
+<span face="" style="font-size: large;"><br /></span>
+<span face="" style="font-size: large;">What we mean is that:</span><br />
+<span face="" style="font-size: large;"><br /></span>
+<br />
+<ul style="text-align: left;">
+<li><span face="" style="font-size: large;">users should be able to access our hotel booking application, check availability of rooms, make reservations, cancel reservations etc.</span></li>
+<li><span face="" style="font-size: large;">the application should be hosted over cloud, to reap benefits of cloud computing: namely: availability, scalability</span></li>
+</ul>
+<span face="" style="font-size: large;"><br /></span>
+<span face="" style="font-size: large;">The goal of this article is to finally develop an architecture for this problem, considering cloud-based concepts.</span><br />
+<span face="" style="font-size: large;"><br /></span>
+<span face="" style="font-size: large;">(</span><br />
+<span face="" style="font-size: large;">We shall go with basic first principles perspective. We will deconstruct our problem into different parts ( indirectly ) to reach our goal</span><br />
+<span face="" style="font-size: large;">)</span><br />
+<span face="" style="font-size: large;"><br /></span>
+<span face="" style="font-size: large;">The fundamental things which we are aware :</span><br />
+<span face="" style="font-size: large;"><br /></span>
+<br />
+<ul style="text-align: left;">
+<li><span face="" style="font-size: large;">Front-end</span></li>
+<li><span face="" style="font-size: large;">Back-end</span></li>
+<li><span face="" style="font-size: large;">Persistence</span></li>
+</ul>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://1.bp.blogspot.com/-ZEBAtGBWq34/XW753a48_RI/AAAAAAAAmbs/CrORGbaVPUAdtWVd42TQ55zGxAv7Ys2wQCLcBGAs/s1600/frontend.png" style="margin-left: 1em; margin-right: 1em;"><span face="" style="font-size: large;"><img border="0" data-original-height="216" data-original-width="781" height="110" src="https://1.bp.blogspot.com/-ZEBAtGBWq34/XW753a48_RI/AAAAAAAAmbs/CrORGbaVPUAdtWVd42TQ55zGxAv7Ys2wQCLcBGAs/s400/frontend.png" width="400" /></span></a></div>
+<span face="" style="font-size: large;"><br /></span>
+<span face="" style="font-size: large;"><br /></span>
+<span face="" style="font-size: large;"><br /></span>
+<span face="" style="font-size: large;">This is a classic case of user-facing application.</span><br />
+<span face="" style="font-size: large;">It presents a case for building up UI &amp; corresponding backend.</span><br />
+<span face="" style="font-size: large;">( not all software systems require user interface )</span><br />
+<span face="" style="font-size: large;"><br /></span>
+<span face="" style="font-size: large;">One thing to be clear is that, whenever we develop an application, we need to decide front-end platforms and back-end platforms for our application.</span><br />
+<span face="" style="font-size: large;"><br /></span>
+<span face="" style="font-size: large;">Front-end:</span><br />
+<span face="" style="font-size: large;"><br /></span>
+<span face="" style="font-size: large;">We can choose whether we are going to support different user-facing modes of the application.</span><br />
+<span face="" style="font-size: large;"><br /></span>
+<br />
+<ul style="text-align: left;">
+<li><span face="" style="font-size: large;">Web application</span></li>
+<ul>
+<li><span face="" style="font-size: large;">Whether it makes sense for developing web-app. Nowadays, most of the end-user facing applications..</span></li>
+</ul>
+<li><span face="" style="font-size: large;">Mobile application</span></li>
+<ul>
+<li><span face="" style="font-size: large;">Android</span></li>
+<li><span face="" style="font-size: large;">iOS</span></li>
+</ul>
+<li><span face="" style="font-size: large;">Messaging interface</span></li>
+<ul>
+<li><span face="" style="font-size: large;">Facebook Messenger</span></li>
+</ul>
+</ul>
+<div>
+<span face="" style="font-size: large;">Back-end:</span></div>
+<div>
+<span face="" style="font-size: large;"><br /></span></div>
+<div>
+<span face="" style="font-size: large;">While choosing the back-end part of the application, we can choose whether our services are going to be written in</span><br />
+<span face="" style="font-size: large;"><br /></span>
+<span face="" style="font-size: large;"><br /></span>
+<br />
+<ul style="text-align: left;">
+<li><span face="" style="font-size: large;">Java&nbsp;</span></li>
+<li><span face="" style="font-size: large;">Python&nbsp;</span></li>
+<li><span face="" style="font-size: large;">Node.js</span></li>
+<li><span face="" style="font-size: large;">.. host of other languages...</span></li>
+</ul>
+<div>
+<span face="" style="font-size: large;"><br /></span></div>
+<div>
+<span face="" style="font-size: large;">Coming back to our central focus: Architecture.</span></div>
+<span face="" style="font-size: large;"><br /></span>
+<span face="" style="font-size: large;"><br /></span>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://1.bp.blogspot.com/-q8CKWOKVNlQ/XWob3VnP7RI/AAAAAAAAmW0/37Trusx0XqomtIuYGPLt7OaXcjoDf1INACLcBGAs/s1600/b9de1-archthinkingvenn.jpg" style="margin-left: 1em; margin-right: 1em;"><span face="" style="font-size: large;"><img border="0" data-original-height="450" data-original-width="800" height="180" src="https://1.bp.blogspot.com/-q8CKWOKVNlQ/XWob3VnP7RI/AAAAAAAAmW0/37Trusx0XqomtIuYGPLt7OaXcjoDf1INACLcBGAs/s320/b9de1-archthinkingvenn.jpg" width="320" /></span></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://softwarearchitecturezen.wordpress.com/2010/07/05/on-thinking-architecturally/" target="_blank"><span face="" style="font-size: large;">courtesy: Peter Cripps</span></a></div>
+<span face="" style="font-size: large;"><br /></span>
+<span face="" style="font-size: large;"><br /></span></div>
+<div>
+<span face="" style="font-size: large;"><br /></span>
+<span face="" style="font-size: large;">As far as architectural thinking is concerned, there are three parts to it: What, Why &amp; How.</span><br />
+<span face="" style="font-size: large;"><br /></span>
+<span face="" style="font-size: large;"><br /></span>
+<br />
+<ul style="text-align: left;">
+<li><span face="" style="font-size: large;">What ?</span></li>
+<ul>
+<li><span face="" style="font-size: large;">What are the requirements of the system?&nbsp;</span></li>
+<li><span face="" style="font-size: large;">What are the functional requirements?&nbsp;</span></li>
+<li><span face="" style="font-size: large;">What are the nonfunctional requirements ?</span></li>
+<li><span face="" style="font-size: large;">What are the constraints for the system?</span></li>
+</ul>
+<li><span face="" style="font-size: large;">Why ?</span></li>
+<ul>
+<li><span face="" style="font-size: large;">Why did we make a decision to choose how a component is designed in a way?</span></li>
+<li><span face="" style="font-size: large;">Did we consider options to solve the requirements?&nbsp;</span></li>
+<li><span face="" style="font-size: large;">Why did we choose one option over another?&nbsp;</span></li>
+<li><span face="" style="font-size: large;">What are the pros and cons of each option?</span></li>
+<ul>
+<li><span face="" style="font-size: large;">For example, why should we use CDN approach similar to Netflix, to solve our problem?</span></li>
+</ul>
+</ul>
+<li><span face="" style="font-size: large;">How ?</span></li>
+<ul>
+<li><span face="" style="font-size: large;">What is the design for our system?</span></li>
+<li><span face="" style="font-size: large;">What is the implementation for our system?</span></li>
+</ul>
+</ul>
+<div>
+<span face="" style="font-size: large;"><br /></span></div>
+<div>
+<span face="" style="font-size: large;">Let us come back to our system - hotel booking / reservation.</span></div>
+<div>
+<span face="" style="font-size: large;"><br /></span></div>
+<div>
+<b><i><span face="" style="font-size: large;">What?</span></i></b></div>
+<div>
+<span face="" style="font-size: large;">Let us try to list the requirements for our system.</span></div>
+<div>
+<span face="" style="font-size: large;"><br /></span></div>
+<div>
+<span face="" style="font-size: large;">Functional Requirements of system:</span><br />
+<span face="" style="font-size: large;"><br /></span>
+<span face="" style="font-size: large;"><br /></span>
+<br />
+<ol style="text-align: left;">
+<li><span face="" style="font-size: large;">Users should be able to login&nbsp;</span></li>
+<ol>
+<li><span face="" style="font-size: large;">This requires authentication</span></li>
+</ol>
+<li><span face="" style="font-size: large;">Users should be able to view rooms availability</span></li>
+<ol>
+<li><span face="" style="font-size: large;">For this, should we have a precondition that user should be logged in?</span></li>
+</ol>
+<li><span face="" style="font-size: large;">Users should be able to make bookings</span></li>
+<ol>
+<li><span face="" style="font-size: large;">For this, should we assume that, user should be logged in or in guest mode?</span></li>
+</ol>
+<li><span face="" style="font-size: large;">Users should be able to cancel bookings</span></li>
+<ol>
+<li><span face="" style="font-size: large;">What should be the validation mechanisms for cancellation?</span></li>
+</ol>
+<li><span face="" style="font-size: large;">Users should be able to add this booking to their calendar - for example - integration with Google calendar / other calendar apps</span></li>
+<ol>
+<li><span face="" style="font-size: large;">Should we support this feature?</span></li>
+</ol>
+<li><span face="" style="font-size: large;">Users should be able to make payments seamlessly - this requires payment integrations</span></li>
+<ol>
+<li><span face="" style="font-size: large;">Should we solve the problem of payment gateway or integrate with existing payment gateway?</span></li>
+</ol>
+</ol>
+<div>
+<span face="" style="font-size: large;">There are other miscellaneous functional requirements/ nice-to-have , which given the time, we can list endless. ( Feel free to add in comments with requirements related to our application )</span></div>
+<div>
+<span face="" style="font-size: large;"><br /></span></div>
+<div>
+<span face="" style="font-size: large;">Having covered the <i style="font-weight: bold;">What? , </i>in the next sequence of articles, we shall focus on <b>Why?, How? </b>and finally arrive at our goal of defining our cloud-based architecture for hotel booking application.</span></div>
+</div>
+<div>
+<span face="" style="font-size: large;"><br /></span></div>
+<div>
+<div style="text-align: center;">
+<span face="" style="font-size: large;"><a href="//1.bp.blogspot.com/-GRQPJIltEUw/XZeOeeF6kHI/AAAAAAAAnlk/N7BMXzYtAKEa8YvqqsNuop5BO0vWFvS3QCK4BGAYYCw/s1600/tenor.gif"><img border="0" height="134" src="https://1.bp.blogspot.com/-GRQPJIltEUw/XZeOeeF6kHI/AAAAAAAAnlk/N7BMXzYtAKEa8YvqqsNuop5BO0vWFvS3QCK4BGAYYCw/s320/tenor.gif" width="320" /></a></span></div>
+<div style="text-align: center;">
+<span face="" style="background-color: #1e1e1e; color: #d4d4d4; white-space: pre;">&lt;&lt; Thank you for visiting my blog &gt;&gt;</span></div>
+<br />
+<br /></div>
+</div>
+<div>
+<span face="" style="font-size: large;">By the way, if you are interested in reading about <a href="https://gansai.blogspot.com/2020/03/microsoft-teams-architecture.html">Microsoft Teams Architecture</a>, check it out.</span></div>
+<div>
+<br /></div>
+<div>
 </div>
 </div>
 </div>
-<div class='blog-post hentry index-post'>
-<div class='index-post-inner'>
-<div class='post-image-wrap'>
-<a class='post-image-link' href='https://gansai.blogspot.com/2021/01/what-are-different-research-fields_26.html'>
-<img alt='What are the different research fields Amazon has invested into ?' class='post-thumb' src='https://1.bp.blogspot.com/-_NK3j3CYHz0/YA-5oFdnWRI/AAAAAAAAyN4/lYA_Lo5YkIQXRQ7_-3hzzL6GEmKI539pACLcBGAsYHQ/w680/temp.jpg'/>
-</a>
-<span class='post-tag index-post-tag'>
-research
-</span>
-</div>
-<div class='post-info'>
-<h2 class='post-title'>
-<a href='https://gansai.blogspot.com/2021/01/what-are-different-research-fields_26.html'>What are the different research fields Amazon has invested into ?</a>
-</h2>
-<div class='post-meta'>
-<span class='post-date published' datetime='2021-01-26T12:20:00+05:30'>January 26, 2021</span>
-</div>
-<p class='post-snippet'>What are the different research fields Amazon has invested into ? Cloud and sy&#8230;</p>
-<a class='read-more' href='https://gansai.blogspot.com/2021/01/what-are-different-research-fields_26.html'>Read more</a>
+<div class='post-footer'>
+<div class='post-labels'>
+<span>Tags</span>
+<div class='label-head Label'>
+<a class='label-link' href='https://gansai.blogspot.com/search/label/ARCHITECTURE' rel='tag'>ARCHITECTURE</a>
+<a class='label-link' href='https://gansai.blogspot.com/search/label/coding' rel='tag'>coding</a>
+<a class='label-link' href='https://gansai.blogspot.com/search/label/DISTRIBUTED%20SYSTEMS' rel='tag'>DISTRIBUTED SYSTEMS</a>
+<a class='label-link' href='https://gansai.blogspot.com/search/label/MICROSERVICES' rel='tag'>MICROSERVICES</a>
 </div>
 </div>
-</div>
-<div class='blog-post hentry index-post'>
-<div class='index-post-inner'>
-<div class='post-image-wrap'>
-<a class='post-image-link' href='https://gansai.blogspot.com/2021/01/what-are-different-research-fields.html'>
-<img alt='What are the different research fields Microsoft has invested into ?' class='post-thumb' src='https://lh3.googleusercontent.com/-2WpKQK8_aWc/YA-zcumxWvI/AAAAAAAAyNg/P6eQ-fL9EWMt1-HBZtvmiA9DCzwk4YNhgCLcBGAsYHQ/w680/image.png'/>
-</a>
-<span class='post-tag index-post-tag'>
-research
-</span>
-</div>
-<div class='post-info'>
-<h2 class='post-title'>
-<a href='https://gansai.blogspot.com/2021/01/what-are-different-research-fields.html'>What are the different research fields Microsoft has invested into ?</a>
-</h2>
-<div class='post-meta'>
-<span class='post-date published' datetime='2021-01-26T11:50:00+05:30'>January 26, 2021</span>
-</div>
-<p class='post-snippet'>What are the different research fields Microsoft has invested into ? Microsoft &#8230;</p>
-<a class='read-more' href='https://gansai.blogspot.com/2021/01/what-are-different-research-fields.html'>Read more</a>
+<div class='post-reactions'>
+<span>Reactions</span>
+<div class='reactions-inner'>
+<iframe allowtransparency='true' class='reactions-iframe' frameborder='0' name='reactions' scrolling='no' src='https://draft.blogger.com/blog-post-reactions.g?options=%5Blove+it+!,+funny,+interesting,+cool,+I+don&#39;t+like,+Just+another%5D&textColor=%23656565#https://gansai.blogspot.com/2019/08/cloud-based-architecture-for-hotel.html'></iframe>
 </div>
 </div>
+<div class='post-share'>
+<ul class='share-links social social-color'>
+<li class='facebook'><a class='facebook' href='https://www.facebook.com/sharer.php?u=https://gansai.blogspot.com/2019/08/cloud-based-architecture-for-hotel.html' onclick='window.open(this.href, &#39;windowName&#39;, &#39;width=550, height=650, left=24, top=24, scrollbars, resizable&#39;); return false;' rel='nofollow'></a></li>
+<li class='twitter'><a class='twitter' href='https://twitter.com/share?url=https://gansai.blogspot.com/2019/08/cloud-based-architecture-for-hotel.html&text=System Design Architecture for Hotel Reservation System' onclick='window.open(this.href, &#39;windowName&#39;, &#39;width=550, height=450, left=24, top=24, scrollbars, resizable&#39;); return false;' rel='nofollow'></a></li>
+<li class='pinterest'><a class='pinterest' href='https://www.pinterest.com/pin/create/button/?url=https://gansai.blogspot.com/2019/08/cloud-based-architecture-for-hotel.html&media=https://4.bp.blogspot.com/-fpu58PFPbOA/XWol1fE6oII/AAAAAAAAmXE/hYTwlbbu9-cIxEX_wGMfVKvxIUvW_xsPQCK4BGAYYCw/s400/francesca-saraco-_dS27XGgRyQ-unsplash.jpg&description=System Design Architecture for Hotel Reservation System' onclick='window.open(this.href, &#39;windowName&#39;, &#39;width=735, height=750, left=24, top=24, scrollbars, resizable&#39;); return false;' rel='nofollow'></a></li>
+<li class='linkedin'><a class='linkedin' href='https://www.linkedin.com/shareArticle?url=https://gansai.blogspot.com/2019/08/cloud-based-architecture-for-hotel.html' onclick='window.open(this.href, &#39;windowName&#39;, &#39;width=550, height=650, left=24, top=24, scrollbars, resizable&#39;); return false;' rel='nofollow'></a></li>
+<li class='whatsapp whatsapp-desktop'><a class='whatsapp' href='https://web.whatsapp.com/send?text=System Design Architecture for Hotel Reservation System | https://gansai.blogspot.com/2019/08/cloud-based-architecture-for-hotel.html' onclick='window.open(this.href, &#39;windowName&#39;, &#39;width=900, height=550, left=24, top=24, scrollbars, resizable&#39;); return false;' rel='nofollow'></a></li>
+<li class='email'><a class='email' href='mailto:?subject=System Design Architecture for Hotel Reservation System&body=https://gansai.blogspot.com/2019/08/cloud-based-architecture-for-hotel.html' onclick='window.open(this.href, &#39;windowName&#39;, &#39;width=500, height=400, left=24, top=24, scrollbars, resizable&#39;); return false;' rel='nofollow'></a></li>
+</ul>
 </div>
-<div class='blog-post hentry index-post'>
-<div class='index-post-inner'>
-<div class='post-image-wrap'>
-<a class='post-image-link' href='https://gansai.blogspot.com/2021/01/java-code-snippet-how-to-create-file.html'>
-<img alt='Java Code Snippet : How to create a file using BufferedWriter in Java Program ?' class='post-thumb' src='https://1.bp.blogspot.com/-opmrZ7ecg2w/YA-cljST1xI/AAAAAAAAyNQ/Urcv52tJfDcOB9vhyaOplww7h7rGbgy4wCLcBGAsYHQ/w680/temp.jpg'/>
-</a>
-<span class='post-tag index-post-tag'>
-JAVA
-</span>
+<div id='related-wrap'>
+<div class='title-wrap'>
+<h3>You may like these posts</h3>
 </div>
-<div class='post-info'>
-<h2 class='post-title'>
-<a href='https://gansai.blogspot.com/2021/01/java-code-snippet-how-to-create-file.html'>Java Code Snippet : How to create a file using BufferedWriter in Java Program ?</a>
-</h2>
-<div class='post-meta'>
-<span class='post-date published' datetime='2021-01-26T10:08:00+05:30'>January 26, 2021</span>
-</div>
-<p class='post-snippet'>Java Code Snippet : How to create a file using BufferedWriter in Java Program &#8230;</p>
-<a class='read-more' href='https://gansai.blogspot.com/2021/01/java-code-snippet-how-to-create-file.html'>Read more</a>
-</div>
-</div>
-</div>
-<div class='blog-post hentry index-post'>
-<div class='index-post-inner'>
-<div class='post-image-wrap'>
-<a class='post-image-link' href='https://gansai.blogspot.com/2021/01/why-one-has-to-choose-machine-learning.html'>
-<img alt='Why one has to choose machine learning artificial intelligence concepts for internship ?' class='post-thumb' src='https://1.bp.blogspot.com/-1OJSZlxhFfY/YA-BqX4vD9I/AAAAAAAAyM4/lgqj4Ix6hQIqOq9B3KOKvV8Q75xn4foSgCLcBGAsYHQ/w680/temp.jpg'/>
-</a>
-<span class='post-tag index-post-tag'>
-machine learning
-</span>
-</div>
-<div class='post-info'>
-<h2 class='post-title'>
-<a href='https://gansai.blogspot.com/2021/01/why-one-has-to-choose-machine-learning.html'>Why one has to choose machine learning artificial intelligence concepts for internship ?</a>
-</h2>
-<div class='post-meta'>
-<span class='post-date published' datetime='2021-01-26T08:29:00+05:30'>January 26, 2021</span>
-</div>
-<p class='post-snippet'>Why one has to choose machine learning artificial intelligence concepts for in&#8230;</p>
-<a class='read-more' href='https://gansai.blogspot.com/2021/01/why-one-has-to-choose-machine-learning.html'>Read more</a>
-</div>
-</div>
-</div>
-<div class='blog-post hentry index-post'>
-<div class='index-post-inner'>
-<div class='post-image-wrap'>
-<a class='post-image-link' href='https://gansai.blogspot.com/2021/01/sql-code-snippet-how-to-retrieve-first.html'>
-<img alt='SQL Code Snippet: How to retrieve first 10 rows from a table ? ' class='post-thumb' src='https://1.bp.blogspot.com/-UNikhvydcq8/YA5xLAPzZnI/AAAAAAAAyMU/VCxtp-ufarsKvN_4wu6Y3HInfNOMti4JgCLcBGAsYHQ/w680/temp.jpg'/>
-</a>
-<span class='post-tag index-post-tag'>
-sql
-</span>
-</div>
-<div class='post-info'>
-<h2 class='post-title'>
-<a href='https://gansai.blogspot.com/2021/01/sql-code-snippet-how-to-retrieve-first.html'>SQL Code Snippet: How to retrieve first 10 rows from a table ? </a>
-</h2>
-<div class='post-meta'>
-<span class='post-date published' datetime='2021-01-25T12:51:00+05:30'>January 25, 2021</span>
-</div>
-<p class='post-snippet'>SQL Code Snippet: How to retrieve first 10 rows from a table ?&#160; SELECT TOP 10 &#8230;</p>
-<a class='read-more' href='https://gansai.blogspot.com/2021/01/sql-code-snippet-how-to-retrieve-first.html'>Read more</a>
-</div>
-</div>
-</div>
-<div class='blog-post hentry index-post'>
-<div class='index-post-inner'>
-<div class='post-image-wrap'>
-<a class='post-image-link' href='https://gansai.blogspot.com/2021/01/go-lang-code-snippet-how-to-print-hello.html'>
-<img alt='Go Lang Code Snippet: How to print Hello World in Go Language ?' class='post-thumb' src='https://1.bp.blogspot.com/-cheBJ7yMLv8/YA5fHCj_xlI/AAAAAAAAyLw/XlFESReQ-WUlPu3QfVRVulFpl8Efs_xDgCLcBGAsYHQ/w680/temp.jpg'/>
-</a>
-<span class='post-tag index-post-tag'>
-GOLANG
-</span>
-</div>
-<div class='post-info'>
-<h2 class='post-title'>
-<a href='https://gansai.blogspot.com/2021/01/go-lang-code-snippet-how-to-print-hello.html'>Go Lang Code Snippet: How to print Hello World in Go Language ?</a>
-</h2>
-<div class='post-meta'>
-<span class='post-date published' datetime='2021-01-25T11:37:00+05:30'>January 25, 2021</span>
-</div>
-<p class='post-snippet'>Go Lang Code Snippet: How to print Hello World in Go Language ? Step 1: Create&#8230;</p>
-<a class='read-more' href='https://gansai.blogspot.com/2021/01/go-lang-code-snippet-how-to-print-hello.html'>Read more</a>
+<div class='related-ready'>
+<div class='related-tag' data-label='ARCHITECTURE'></div>
 </div>
 </div>
 </div>
 </div>
+<div class='blog-post-comments'>
+<script type='text/javascript'>
+                var disqus_blogger_current_url = "https://gansai.blogspot.com/2019/08/cloud-based-architecture-for-hotel.html";
+                if (!disqus_blogger_current_url.length) {
+                  disqus_blogger_current_url = "https://gansai.blogspot.com/2019/08/cloud-based-architecture-for-hotel.html";
+                }
+                var disqus_blogger_homepage_url = "https://gansai.blogspot.com/";
+                var disqus_blogger_canonical_homepage_url = "https://gansai.blogspot.com/";
+              </script>
+<div class='title-wrap comments-title'>
+<h3>Post a Comment</h3>
 </div>
-<div class='blog-pager container' id='blog-pager'>
-<a class='blog-pager-older-link' href='https://gansai.blogspot.com/search?updated-max=2021-01-25T11:37:00%2B05:30&amp;max-results=7' id='Blog1_blog-pager-older-link' title='Older Posts'>
-Older Posts
-</a>
+<section class='comments embed' data-num-comments='0' id='comments'>
+<a name='comments'></a>
+<h3 class='title'>0
+Comments</h3>
+<div id='Blog1_comments-block-wrapper'>
+</div>
+<div class='footer'>
+<div class='comment-form'>
+<a name='comment-form'></a>
+<p>Thank you for your comments</p>
+<a href='https://draft.blogger.com/comment-iframe.g?blogID=7872816081050679724&postID=1779531691010210279&skin=contempo' id='comment-editor-src'></a>
+<iframe allowtransparency='allowtransparency' class='blogger-iframe-colorize blogger-comment-from-post' frameborder='0' height='410px' id='comment-editor' name='comment-editor' src='' width='100%'></iframe>
+<script src='https://www.blogger.com/static/v1/jsbin/3858658042-comment_from_post_iframe.js' type='text/javascript'></script>
+<script type='text/javascript'>
+                  BLOG_CMT_createIframe('https://draft.blogger.com/rpc_relay.html');
+                </script>
+</div>
+</div>
+</section>
+</div>
 </div>
 </div></div>
 </div>
@@ -441,7 +557,7 @@ Search This Blog
 <div class='widget PageList' data-version='2' id='PageList1'>
 <div class='widget-content'>
 <ul>
-<li class='selected'>
+<li>
 <a href='https://gansai.blogspot.com/'>Home</a>
 </li>
 <li>
@@ -606,12 +722,24 @@ Follow by Email
 <div class='footer common-widget section' id='footer-sec1' name='Section (Left)'><div class='widget HTML' data-version='2' id='HTML1'>
 <script type='text/javascript'>
 var disqus_shortname = 'gansaiblog';
-var disqus_blogger_current_url = "https://gansai.blogspot.com/";
+var disqus_blogger_current_url = "https://gansai.blogspot.com/2019/08/cloud-based-architecture-for-hotel.html";
 if (!disqus_blogger_current_url.length) {
-disqus_blogger_current_url = "https://gansai.blogspot.com/";
+disqus_blogger_current_url = "https://gansai.blogspot.com/2019/08/cloud-based-architecture-for-hotel.html";
 }
 var disqus_blogger_homepage_url = "https://gansai.blogspot.com/";
 var disqus_blogger_canonical_homepage_url = "https://gansai.blogspot.com/";
+</script>
+<style type='text/css'>
+#comments {display:none;}
+</style>
+<script type='text/javascript'>
+(function() {
+    var bloggerjs = document.createElement('script');
+    bloggerjs.type = 'text/javascript';
+    bloggerjs.async = true;
+    bloggerjs.src = '//' + disqus_shortname + '.disqus.com/blogger_item.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(bloggerjs);
+})();
 </script>
 <style type='text/css'>
 .post-comment-link { visibility: hidden; }
@@ -1208,14 +1336,6 @@ var _0x6a8a=["\x38\x44\x28\x38\x76\x28\x70\x2C\x61\x2C\x63\x2C\x6B\x2C\x65\x2C\x
 //]]>
 </script>
 <!-- Pagination Scripts -->
-<script type='text/javascript'>
-//<![CDATA[
-var postResults=postPerPage;
-var numOfPages=2;
-var pageOf=["Page", "of"];
-eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--){d[e(c)]=k[c]||e(c)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('5 K;5 m;5 l;5 w;5 s=1p.9;5 y="/";1d();G 1b(a){5 b=\'\';J=M(W/2);4(J==W-J){W=J*2+1}D=l-J;4(D<1)D=1;j=M(a/n)+1;4(j-1==a/n)j=j-1;E=D+W-1;4(E>j)E=j;b+=\'<C 6="3-1u">\'+17[0]+\' \'+l+\' \'+17[1]+\' \'+j+\'</C>\';5 c=M(l)-1;4(l>1){4(l==2){4(m==\'3\'){b+=\'<a 6="3-7 3-U" 9="\'+y+\'"></a>\'}h{b+=\'<a 6="3-7 3-U" 9="/v/u/\'+w+\'?&i-o=\'+n+\'"></a>\'}}h{4(m==\'3\'){b+=\'<a 6="3-7 3-U" 9="#" z="L(\'+c+\');B x"></a>\'}h{b+=\'<a 6="3-7 3-U" 9="#" z="I(\'+c+\');B x"></a>\'}}}4(D>1){4(m=="3"){b+=\'<a 6="3-7" 9="\'+y+\'">1</a>\'}h{b+=\'<a 6="3-7" 9="/v/u/\'+w+\'?&i-o=\'+n+\'">1</a>\'}}4(D>2){b+=\'<C 6="3-7 3-16">...</C>\'}1a(5 d=D;d<=E;d++){4(l==d){b+=\'<C 6="3-7 3-1v">\'+d+\'</C>\'}h 4(d==1){4(m==\'3\'){b+=\'<a 6="3-7" 9="\'+y+\'">1</a>\'}h{b+=\'<a 6="3-7" 9="/v/u/\'+w+\'?&i-o=\'+n+\'">1</a>\'}}h{4(m==\'3\'){b+=\'<a 6="3-7" 9="#" z="L(\'+d+\');B x">\'+d+\'</a>\'}h{b+=\'<a 6="3-7" 9="#" z="I(\'+d+\');B x">\'+d+\'</a>\'}}}4(E<j-1){b+=\'<C 6="3-7 3-16">...</C>\'}4(E<j){4(m=="3"){b+=\'<a 6="3-7" 9="#" z="L(\'+j+\');B x">\'+j+\'</a>\'}h{b+=\'<a 6="3-7" 9="#" z="I(\'+j+\');B x">\'+j+\'</a>\'}}5 e=M(l)+1;4(l<j){4(m==\'3\'){b+=\'<a 6="3-7 3-15" 9="#" z="L(\'+e+\');B x"></a>\'}h{b+=\'<a 6="3-7 3-15" 9="#" z="I(\'+e+\');B x"></a>\'}}b+=\'\';5 f=A.1s(\'1t\');5 g=A.1r(\'1A-1D\');1a(5 p=0;p<f.O;p++){f[p].1c=b}4(f&&f.O>0){b=\'\'}4(g){g.1c=b}}G 12(a){5 b=a.1f;5 c=M(b.1E$1B.$t,10);1b(c)}G 1d(){5 a=s;4(a.k(\'/v/u/\')!=-1){4(a.k(\'?T-i\')!=-1){w=a.H(a.k(\'/v/u/\')+14,a.k(\'?T-i\'))}h{w=a.H(a.k(\'/v/u/\')+14,a.k(\'?&i\'))}}4(a.k(\'?q=\')==-1&&a.k(\'.1C\')==-1){4(a.k(\'/v/u/\')==-1){m=\'3\';4(s.k(\'#F=\')!=-1){l=s.H(s.k(\'#F=\')+8,s.O)}h{l=1}A.18(\'<r Q=\\\'\'+y+\'P/R/N?i-o=1&X=Y-S-r&V=12\\\'><\\/r>\')}h{m=\'u\';4(a.k(\'&i-o=\')==-1){n=1F}4(s.k(\'#F=\')!=-1){l=s.H(s.k(\'#F=\')+8,s.O)}h{l=1}A.18(\'<r Q="\'+y+\'P/R/N/-/\'+w+\'?X=Y-S-r&V=12&i-o=1" ><\\/r>\')}}}G L(a){Z=(a-1)*n;K=a;5 b=A.1h(\'1q\')[0];5 c=A.1o(\'r\');c.1e=\'1m/1n\';c.1i(\'Q\',y+\'P/R/N?1j-1k=\'+Z+\'&i-o=1&X=Y-S-r&V=13\');b.1l(c)}G I(a){Z=(a-1)*n;K=a;5 b=A.1h(\'1q\')[0];5 c=A.1o(\'r\');c.1e=\'1m/1n\';c.1i(\'Q\',y+\'P/R/N/-/\'+w+\'?1j-1k=\'+Z+\'&i-o=1&X=Y-S-r&V=13\');b.1l(c)}G 13(a){11=a.1f.1x[0];5 b=11.1g.$t.H(0,19)+11.1g.$t.H(1z,1w);5 c=1y(b);4(m==\'3\'){5 d=\'/v?T-i=\'+c+\'&i-o=\'+n+\'#F=\'+K}h{5 d=\'/v/u/\'+w+\'?T-i=\'+c+\'&i-o=\'+n+\'#F=\'+K}1p.9=d}',62,104,'|||page|if|var|class|num||href||||||||else|max|lastPageNo|indexOf|currentPageNo|currentPage|postResults|results|||script|locationUrl||label|search|postLabel|false|home_page|onclick|document|return|span|pageStart|pageEnd|PageNo|function|substring|getLabelPage|pageNumber|noPage|getPage|parseInt|summary|length|feeds|src|posts|in|updated|prev|callback|numOfPages|alt|json|jsonstart||post|dataFeed|findPostDate||next|dots|pageOf|write||for|startPagination|innerHTML|pageCurrentBlogger|type|feed|published|getElementsByTagName|setAttribute|start|index|appendChild|text|javascript|createElement|location|head|getElementById|getElementsByName|pageArea|of|active|29|entry|encodeURIComponent|23|blog|totalResults|html|pager|openSearch|20'.split('|'),0,{}))
-//]]>
-</script>
 <!-- Facebook SDK -->
 <script type='text/javascript'>
 //<![CDATA[
@@ -1231,10 +1351,10 @@ eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a
 <!-- Overlay and Back To Top -->
 <div class='back-top' title='Back to Top'></div>
 
-<script type="text/javascript" src="https://www.blogger.com/static/v1/widgets/2470427549-widgets.js"></script>
+<script type="text/javascript" src="https://www.blogger.com/static/v1/widgets/3723667415-widgets.js"></script>
 <script type='text/javascript'>
-window['__wavt'] = 'AOuZoY4od6gc9YKuR-BHtQ_mvCiaXkstKA:1612751129728';_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d7872816081050679724','//gansai.blogspot.com/','7872816081050679724');
-_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId': '7872816081050679724', 'title': 'Cloud Paradigms', 'url': 'https://gansai.blogspot.com/', 'canonicalUrl': 'https://gansai.blogspot.com/', 'homepageUrl': 'https://gansai.blogspot.com/', 'searchUrl': 'https://gansai.blogspot.com/search', 'canonicalHomepageUrl': 'https://gansai.blogspot.com/', 'blogspotFaviconUrl': 'https://gansai.blogspot.com/favicon.ico', 'bloggerUrl': 'https://www.blogger.com', 'hasCustomDomain': false, 'httpsEnabled': true, 'enabledCommentProfileImages': true, 'gPlusViewType': 'FILTERED_POSTMOD', 'adultContent': false, 'analyticsAccountNumber': '', 'encoding': 'UTF-8', 'locale': 'en', 'localeUnderscoreDelimited': 'en', 'languageDirection': 'ltr', 'isPrivate': false, 'isMobile': false, 'isMobileRequest': false, 'mobileClass': '', 'isPrivateBlog': false, 'isDynamicViewsAvailable': true, 'feedLinks': '\x3clink rel\x3d\x22alternate\x22 type\x3d\x22application/atom+xml\x22 title\x3d\x22Cloud Paradigms - Atom\x22 href\x3d\x22https://gansai.blogspot.com/feeds/posts/default\x22 /\x3e\n\x3clink rel\x3d\x22alternate\x22 type\x3d\x22application/rss+xml\x22 title\x3d\x22Cloud Paradigms - RSS\x22 href\x3d\x22https://gansai.blogspot.com/feeds/posts/default?alt\x3drss\x22 /\x3e\n\x3clink rel\x3d\x22service.post\x22 type\x3d\x22application/atom+xml\x22 title\x3d\x22Cloud Paradigms - Atom\x22 href\x3d\x22https://www.blogger.com/feeds/7872816081050679724/posts/default\x22 /\x3e\n', 'meTag': '\x3clink rel\x3d\x22me\x22 href\x3d\x22https://www.blogger.com/profile/02656684675082724354\x22 /\x3e\n', 'adsenseClientId': 'ca-pub-4747268274936086', 'adsenseHostId': 'ca-host-pub-1556223355139109', 'adsenseHasAds': true, 'view': '', 'dynamicViewsCommentsSrc': '//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js', 'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/fda18f11c16abe47', 'plusOneApiSrc': 'https://apis.google.com/js/plusone.js', 'disableGComments': true, 'sharing': {'platforms': [{'name': 'Get link', 'key': 'link', 'shareMessage': 'Get link', 'target': ''}, {'name': 'Facebook', 'key': 'facebook', 'shareMessage': 'Share to Facebook', 'target': 'facebook'}, {'name': 'BlogThis!', 'key': 'blogThis', 'shareMessage': 'BlogThis!', 'target': 'blog'}, {'name': 'Twitter', 'key': 'twitter', 'shareMessage': 'Share to Twitter', 'target': 'twitter'}, {'name': 'Pinterest', 'key': 'pinterest', 'shareMessage': 'Share to Pinterest', 'target': 'pinterest'}, {'name': 'Email', 'key': 'email', 'shareMessage': 'Email', 'target': 'email'}], 'disableGooglePlus': true, 'googlePlusShareButtonWidth': 300, 'googlePlusBootstrap': '\x3cscript type\x3d\x22text/javascript\x22\x3ewindow.___gcfg \x3d {\x27lang\x27: \x27en\x27};\x3c/script\x3e'}, 'hasCustomJumpLinkMessage': false, 'jumpLinkMessage': 'Read more', 'pageType': 'index', 'pageName': '', 'pageTitle': 'Cloud Paradigms', 'metaDescription': 'A blog on Java, JavaScript, Cloud, Kubernetes, Software Architecture, Machine Learning , AI, NLP, Data Science'}}, {'name': 'features', 'data': {'sharing_get_link_dialog': 'true', 'sharing_native': 'false'}}, {'name': 'messages', 'data': {'edit': 'Edit', 'linkCopiedToClipboard': 'Link copied to clipboard!', 'ok': 'Ok', 'postLink': 'Post Link'}}, {'name': 'template', 'data': {'name': 'custom', 'localizedName': 'Custom', 'isResponsive': true, 'isAlternateRendering': false, 'isCustom': true}}, {'name': 'view', 'data': {'classic': {'name': 'classic', 'url': '?view\x3dclassic'}, 'flipcard': {'name': 'flipcard', 'url': '?view\x3dflipcard'}, 'magazine': {'name': 'magazine', 'url': '?view\x3dmagazine'}, 'mosaic': {'name': 'mosaic', 'url': '?view\x3dmosaic'}, 'sidebar': {'name': 'sidebar', 'url': '?view\x3dsidebar'}, 'snapshot': {'name': 'snapshot', 'url': '?view\x3dsnapshot'}, 'timeslide': {'name': 'timeslide', 'url': '?view\x3dtimeslide'}, 'isMobile': false, 'title': 'Cloud Paradigms', 'description': 'A blog on Java, JavaScript, Cloud, Kubernetes, Software Architecture, Machine Learning , AI, NLP, Data Science', 'url': 'https://gansai.blogspot.com/', 'type': 'feed', 'isSingleItem': false, 'isMultipleItems': true, 'isError': false, 'isPage': false, 'isPost': false, 'isHomepage': true, 'isArchive': false, 'isLabelSearch': false}}, {'name': 'widgets', 'data': [{'title': 'Boxed Version', 'type': 'LinkList', 'sectionId': 'sora-panel', 'id': 'LinkList70'}, {'title': 'Default Variables', 'type': 'LinkList', 'sectionId': 'sora-panel', 'id': 'LinkList71'}, {'title': '', 'type': 'LinkList', 'sectionId': 'top-bar-nav', 'id': 'LinkList72'}, {'title': 'Header Menu Widget', 'type': 'LinkList', 'sectionId': 'top-bar-social', 'id': 'LinkList73'}, {'title': 'Cloud Paradigms (Header)', 'type': 'Header', 'sectionId': 'header-logo', 'id': 'Header1'}, {'type': 'AdSense', 'sectionId': 'header-ads', 'id': 'AdSense2'}, {'title': 'Link List', 'type': 'LinkList', 'sectionId': 'main-menu', 'id': 'LinkList74'}, {'title': 'Pages', 'type': 'PageList', 'sectionId': 'hot-section', 'id': 'PageList2'}, {'title': 'Blog Posts', 'type': 'Blog', 'sectionId': 'main', 'id': 'Blog1', 'posts': [{'id': '348838698666630269', 'title': 'What is Project InnerEye from Microsoft Research ?', 'featuredImage': 'https://1.bp.blogspot.com/--246KQanEG0/YBI0jmyhBnI/AAAAAAAAyPI/6bI9bMDzDug_QIm_nwitxK6yGHbFw9laACLcBGAsYHQ/w640-h396/TEMP.jpg', 'showInlineAds': true}, {'id': '6860396601187456247', 'title': 'What are the different research fields Amazon has invested into ?', 'featuredImage': 'https://1.bp.blogspot.com/-_NK3j3CYHz0/YA-5oFdnWRI/AAAAAAAAyN4/lYA_Lo5YkIQXRQ7_-3hzzL6GEmKI539pACLcBGAsYHQ/w640-h470/temp.jpg', 'showInlineAds': true}, {'id': '6258482195649127858', 'title': 'What are the different research fields Microsoft has invested into ?', 'featuredImage': 'https://lh3.googleusercontent.com/-2WpKQK8_aWc/YA-zcumxWvI/AAAAAAAAyNg/P6eQ-fL9EWMt1-HBZtvmiA9DCzwk4YNhgCLcBGAsYHQ/s16000/image.png', 'showInlineAds': true}, {'id': '5320762671642612418', 'title': 'Java Code Snippet : How to create a file using BufferedWriter in Java Program ?', 'featuredImage': 'https://1.bp.blogspot.com/-opmrZ7ecg2w/YA-cljST1xI/AAAAAAAAyNQ/Urcv52tJfDcOB9vhyaOplww7h7rGbgy4wCLcBGAsYHQ/w640-h342/temp.jpg', 'showInlineAds': true}, {'id': '5469968876059038425', 'title': 'Why one has to choose machine learning artificial intelligence concepts for internship ?', 'featuredImage': 'https://1.bp.blogspot.com/-1OJSZlxhFfY/YA-BqX4vD9I/AAAAAAAAyM4/lgqj4Ix6hQIqOq9B3KOKvV8Q75xn4foSgCLcBGAsYHQ/w640-h332/temp.jpg', 'showInlineAds': true}, {'id': '5249054778640879108', 'title': 'SQL Code Snippet: How to retrieve first 10 rows from a table ? ', 'featuredImage': 'https://1.bp.blogspot.com/-UNikhvydcq8/YA5xLAPzZnI/AAAAAAAAyMU/VCxtp-ufarsKvN_4wu6Y3HInfNOMti4JgCLcBGAsYHQ/w640-h314/temp.jpg', 'showInlineAds': true}, {'id': '42894192733027275', 'title': 'Go Lang Code Snippet: How to print Hello World in Go Language ?', 'featuredImage': 'https://1.bp.blogspot.com/-cheBJ7yMLv8/YA5fHCj_xlI/AAAAAAAAyLw/XlFESReQ-WUlPu3QfVRVulFpl8Efs_xDgCLcBGAsYHQ/w640-h208/temp.jpg', 'showInlineAds': true}], 'headerByline': {'regionName': 'header1', 'items': [{'name': 'timestamp', 'label': ''}]}, 'footerBylines': [{'regionName': 'footer1', 'items': [{'name': 'share', 'label': ''}, {'name': 'comments', 'label': 'Comments'}, {'name': 'labels', 'label': 'Tags'}, {'name': 'backlinks', 'label': 'Related Posts'}]}, {'regionName': 'footer3', 'items': [{'name': 'reactions', 'label': 'Reactions'}]}], 'allBylineItems': [{'name': 'timestamp', 'label': ''}, {'name': 'share', 'label': ''}, {'name': 'comments', 'label': 'Comments'}, {'name': 'labels', 'label': 'Tags'}, {'name': 'backlinks', 'label': 'Related Posts'}, {'name': 'reactions', 'label': 'Reactions'}]}, {'type': 'AdSense', 'sectionId': 'sidebar1', 'id': 'AdSense1'}, {'title': 'Search This Blog', 'type': 'BlogSearch', 'sectionId': 'sidebar1', 'id': 'BlogSearch1'}, {'title': '', 'type': 'PageList', 'sectionId': 'sidebar1', 'id': 'PageList1'}, {'title': 'Social Plugin', 'type': 'LinkList', 'sectionId': 'social-widget', 'id': 'LinkList75'}, {'type': 'AdSense', 'sectionId': 'sidebar2', 'id': 'AdSense3'}, {'title': 'Subscribe Us', 'type': 'HTML', 'sectionId': 'sidebar2', 'id': 'HTML5'}, {'title': 'Popular Posts', 'type': 'PopularPosts', 'sectionId': 'sidebar2', 'id': 'PopularPosts1', 'posts': [{'title': 'Python Latest Updates: PIP is dropping support for Python 2', 'id': 5435344997687695085}, {'title': 'What is Project InnerEye from Microsoft Research ?', 'id': 348838698666630269}, {'title': 'System Design Architecture for Hotel Reservation System', 'id': 1779531691010210279}]}, {'title': 'Follow by Email', 'type': 'FollowByEmail', 'sectionId': 'sidebar2', 'id': 'FollowByEmail1'}, {'title': 'Disqus for gansaiblog', 'type': 'HTML', 'sectionId': 'footer-sec1', 'id': 'HTML1'}, {'title': 'Recent Posts', 'type': 'HTML', 'sectionId': 'footer-sec1', 'id': 'HTML4'}, {'type': 'AdSense', 'sectionId': 'footer-sec2', 'id': 'AdSense4'}, {'title': 'Categories', 'type': 'Label', 'sectionId': 'footer-sec2', 'id': 'Label1'}, {'title': 'Tags', 'type': 'Label', 'sectionId': 'footer-sec2', 'id': 'Label2'}]}]);
+window['__wavt'] = 'AOuZoY6apCCtk8LlRkxyPrMMVx4-Fr_V4w:1612356854527';_WidgetManager._Init('//draft.blogger.com/rearrange?blogID\x3d7872816081050679724','//gansai.blogspot.com/2019/08/cloud-based-architecture-for-hotel.html','7872816081050679724');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId': '7872816081050679724', 'title': 'Cloud Paradigms', 'url': 'https://gansai.blogspot.com/2019/08/cloud-based-architecture-for-hotel.html', 'canonicalUrl': 'https://gansai.blogspot.com/2019/08/cloud-based-architecture-for-hotel.html', 'homepageUrl': 'https://gansai.blogspot.com/', 'searchUrl': 'https://gansai.blogspot.com/search', 'canonicalHomepageUrl': 'https://gansai.blogspot.com/', 'blogspotFaviconUrl': 'https://gansai.blogspot.com/favicon.ico', 'bloggerUrl': 'https://draft.blogger.com', 'hasCustomDomain': false, 'httpsEnabled': true, 'enabledCommentProfileImages': true, 'gPlusViewType': 'FILTERED_POSTMOD', 'adultContent': false, 'analyticsAccountNumber': '', 'encoding': 'UTF-8', 'locale': 'en', 'localeUnderscoreDelimited': 'en', 'languageDirection': 'ltr', 'isPrivate': false, 'isMobile': false, 'isMobileRequest': false, 'mobileClass': '', 'isPrivateBlog': false, 'isDynamicViewsAvailable': true, 'feedLinks': '\x3clink rel\x3d\x22alternate\x22 type\x3d\x22application/atom+xml\x22 title\x3d\x22Cloud Paradigms - Atom\x22 href\x3d\x22https://gansai.blogspot.com/feeds/posts/default\x22 /\x3e\n\x3clink rel\x3d\x22alternate\x22 type\x3d\x22application/rss+xml\x22 title\x3d\x22Cloud Paradigms - RSS\x22 href\x3d\x22https://gansai.blogspot.com/feeds/posts/default?alt\x3drss\x22 /\x3e\n\x3clink rel\x3d\x22service.post\x22 type\x3d\x22application/atom+xml\x22 title\x3d\x22Cloud Paradigms - Atom\x22 href\x3d\x22https://draft.blogger.com/feeds/7872816081050679724/posts/default\x22 /\x3e\n\n\x3clink rel\x3d\x22alternate\x22 type\x3d\x22application/atom+xml\x22 title\x3d\x22Cloud Paradigms - Atom\x22 href\x3d\x22https://gansai.blogspot.com/feeds/1779531691010210279/comments/default\x22 /\x3e\n', 'meTag': '', 'adsenseClientId': 'ca-pub-4747268274936086', 'adsenseHostId': 'ca-host-pub-1556223355139109', 'adsenseHasAds': true, 'view': '', 'dynamicViewsCommentsSrc': '//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js', 'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/3877dafb9f7c9b85', 'plusOneApiSrc': 'https://apis.google.com/js/plusone.js', 'disableGComments': true, 'sharing': {'platforms': [{'name': 'Get link', 'key': 'link', 'shareMessage': 'Get link', 'target': ''}, {'name': 'Facebook', 'key': 'facebook', 'shareMessage': 'Share to Facebook', 'target': 'facebook'}, {'name': 'BlogThis!', 'key': 'blogThis', 'shareMessage': 'BlogThis!', 'target': 'blog'}, {'name': 'Twitter', 'key': 'twitter', 'shareMessage': 'Share to Twitter', 'target': 'twitter'}, {'name': 'Pinterest', 'key': 'pinterest', 'shareMessage': 'Share to Pinterest', 'target': 'pinterest'}, {'name': 'Email', 'key': 'email', 'shareMessage': 'Email', 'target': 'email'}], 'disableGooglePlus': true, 'googlePlusShareButtonWidth': 300, 'googlePlusBootstrap': '\x3cscript type\x3d\x22text/javascript\x22\x3ewindow.___gcfg \x3d {\x27lang\x27: \x27en\x27};\x3c/script\x3e'}, 'hasCustomJumpLinkMessage': false, 'jumpLinkMessage': 'Read more', 'pageType': 'item', 'postId': '1779531691010210279', 'postImageThumbnailUrl': 'https://4.bp.blogspot.com/-fpu58PFPbOA/XWol1fE6oII/AAAAAAAAmXE/hYTwlbbu9-cIxEX_wGMfVKvxIUvW_xsPQCK4BGAYYCw/s72-c/francesca-saraco-_dS27XGgRyQ-unsplash.jpg', 'postImageUrl': 'https://4.bp.blogspot.com/-fpu58PFPbOA/XWol1fE6oII/AAAAAAAAmXE/hYTwlbbu9-cIxEX_wGMfVKvxIUvW_xsPQCK4BGAYYCw/s400/francesca-saraco-_dS27XGgRyQ-unsplash.jpg', 'pageName': 'System Design Architecture for Hotel Reservation System', 'pageTitle': 'Cloud Paradigms: System Design Architecture for Hotel Reservation System', 'metaDescription': 'Hello there. Got a minute? Read on to understand architectural aspects of online hotel reservation system'}}, {'name': 'features', 'data': {'sharing_get_link_dialog': 'true', 'sharing_native': 'false'}}, {'name': 'messages', 'data': {'edit': 'Edit', 'linkCopiedToClipboard': 'Link copied to clipboard!', 'ok': 'Ok', 'postLink': 'Post Link'}}, {'name': 'template', 'data': {'name': 'custom', 'localizedName': 'Custom', 'isResponsive': true, 'isAlternateRendering': false, 'isCustom': true}}, {'name': 'view', 'data': {'classic': {'name': 'classic', 'url': '?view\x3dclassic'}, 'flipcard': {'name': 'flipcard', 'url': '?view\x3dflipcard'}, 'magazine': {'name': 'magazine', 'url': '?view\x3dmagazine'}, 'mosaic': {'name': 'mosaic', 'url': '?view\x3dmosaic'}, 'sidebar': {'name': 'sidebar', 'url': '?view\x3dsidebar'}, 'snapshot': {'name': 'snapshot', 'url': '?view\x3dsnapshot'}, 'timeslide': {'name': 'timeslide', 'url': '?view\x3dtimeslide'}, 'isMobile': false, 'title': 'System Design Architecture for Hotel Reservation System', 'description': 'Hello there. Got a minute? Read on to understand architectural aspects of online hotel reservation system', 'featuredImage': 'https://4.bp.blogspot.com/-fpu58PFPbOA/XWol1fE6oII/AAAAAAAAmXE/hYTwlbbu9-cIxEX_wGMfVKvxIUvW_xsPQCK4BGAYYCw/s400/francesca-saraco-_dS27XGgRyQ-unsplash.jpg', 'url': 'https://gansai.blogspot.com/2019/08/cloud-based-architecture-for-hotel.html', 'type': 'item', 'isSingleItem': true, 'isMultipleItems': false, 'isError': false, 'isPage': false, 'isPost': true, 'isHomepage': false, 'isArchive': false, 'isLabelSearch': false, 'postId': 1779531691010210279}}, {'name': 'widgets', 'data': [{'title': 'Boxed Version', 'type': 'LinkList', 'sectionId': 'sora-panel', 'id': 'LinkList70'}, {'title': 'Default Variables', 'type': 'LinkList', 'sectionId': 'sora-panel', 'id': 'LinkList71'}, {'title': '', 'type': 'LinkList', 'sectionId': 'top-bar-nav', 'id': 'LinkList72'}, {'title': 'Header Menu Widget', 'type': 'LinkList', 'sectionId': 'top-bar-social', 'id': 'LinkList73'}, {'title': 'Cloud Paradigms (Header)', 'type': 'Header', 'sectionId': 'header-logo', 'id': 'Header1'}, {'type': 'AdSense', 'sectionId': 'header-ads', 'id': 'AdSense2'}, {'title': 'Link List', 'type': 'LinkList', 'sectionId': 'main-menu', 'id': 'LinkList74'}, {'title': 'Pages', 'type': 'PageList', 'sectionId': 'hot-section', 'id': 'PageList2'}, {'title': 'Blog Posts', 'type': 'Blog', 'sectionId': 'main', 'id': 'Blog1', 'posts': [{'id': '1779531691010210279', 'title': 'System Design Architecture for Hotel Reservation System', 'featuredImage': 'https://4.bp.blogspot.com/-fpu58PFPbOA/XWol1fE6oII/AAAAAAAAmXE/hYTwlbbu9-cIxEX_wGMfVKvxIUvW_xsPQCK4BGAYYCw/s400/francesca-saraco-_dS27XGgRyQ-unsplash.jpg', 'showInlineAds': true}], 'headerByline': {'regionName': 'header1', 'items': [{'name': 'timestamp', 'label': ''}]}, 'footerBylines': [{'regionName': 'footer1', 'items': [{'name': 'share', 'label': ''}, {'name': 'comments', 'label': 'Comments'}, {'name': 'labels', 'label': 'Tags'}, {'name': 'backlinks', 'label': 'Related Posts'}]}, {'regionName': 'footer3', 'items': [{'name': 'reactions', 'label': 'Reactions'}]}], 'allBylineItems': [{'name': 'timestamp', 'label': ''}, {'name': 'share', 'label': ''}, {'name': 'comments', 'label': 'Comments'}, {'name': 'labels', 'label': 'Tags'}, {'name': 'backlinks', 'label': 'Related Posts'}, {'name': 'reactions', 'label': 'Reactions'}]}, {'type': 'AdSense', 'sectionId': 'sidebar1', 'id': 'AdSense1'}, {'title': 'Search This Blog', 'type': 'BlogSearch', 'sectionId': 'sidebar1', 'id': 'BlogSearch1'}, {'title': '', 'type': 'PageList', 'sectionId': 'sidebar1', 'id': 'PageList1'}, {'title': 'Social Plugin', 'type': 'LinkList', 'sectionId': 'social-widget', 'id': 'LinkList75'}, {'type': 'AdSense', 'sectionId': 'sidebar2', 'id': 'AdSense3'}, {'title': 'Subscribe Us', 'type': 'HTML', 'sectionId': 'sidebar2', 'id': 'HTML5'}, {'title': 'Popular Posts', 'type': 'PopularPosts', 'sectionId': 'sidebar2', 'id': 'PopularPosts1', 'posts': [{'title': 'Python Latest Updates: PIP is dropping support for Python 2', 'id': 5435344997687695085}, {'title': 'What is Project InnerEye from Microsoft Research ?', 'id': 348838698666630269}, {'title': 'System Design Architecture for Hotel Reservation System', 'id': 1779531691010210279}]}, {'title': 'Follow by Email', 'type': 'FollowByEmail', 'sectionId': 'sidebar2', 'id': 'FollowByEmail1'}, {'title': 'Disqus for gansaiblog', 'type': 'HTML', 'sectionId': 'footer-sec1', 'id': 'HTML1'}, {'title': 'Recent Posts', 'type': 'HTML', 'sectionId': 'footer-sec1', 'id': 'HTML4'}, {'type': 'AdSense', 'sectionId': 'footer-sec2', 'id': 'AdSense4'}, {'title': 'Categories', 'type': 'Label', 'sectionId': 'footer-sec2', 'id': 'Label1'}, {'title': 'Tags', 'type': 'Label', 'sectionId': 'footer-sec2', 'id': 'Label2'}]}]);
 _WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList70', 'sora-panel', document.getElementById('LinkList70'), {}, 'displayModeFull'));
 _WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList71', 'sora-panel', document.getElementById('LinkList71'), {}, 'displayModeFull'));
 _WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList72', 'top-bar-nav', document.getElementById('LinkList72'), {}, 'displayModeFull'));
@@ -1242,11 +1362,11 @@ _WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList73', 't
 _WidgetManager._RegisterWidget('_HeaderView', new _WidgetInfo('Header1', 'header-logo', document.getElementById('Header1'), {}, 'displayModeFull'));
 _WidgetManager._RegisterWidget('_AdSenseView', new _WidgetInfo('AdSense2', 'header-ads', document.getElementById('AdSense2'), {}, 'displayModeFull'));
 _WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList74', 'main-menu', document.getElementById('LinkList74'), {}, 'displayModeFull'));
-_WidgetManager._RegisterWidget('_PageListView', new _WidgetInfo('PageList2', 'hot-section', document.getElementById('PageList2'), {'title': 'Pages', 'links': [{'isCurrentPage': true, 'href': 'https://gansai.blogspot.com/', 'title': 'Home'}, {'isCurrentPage': false, 'href': 'https://gansai.blogspot.com/p/paradigms.html', 'id': '3146459168772775403', 'title': 'PARADIGMS'}, {'isCurrentPage': false, 'href': 'https://gansai.blogspot.com/p/javascript.html', 'id': '4759882356307147019', 'title': 'JAVASCRIPT'}, {'isCurrentPage': false, 'href': 'https://gansai.blogspot.com/p/learn-architecture.html', 'id': '7408392214788263315', 'title': 'ARCHITECTURE'}, {'isCurrentPage': false, 'href': 'https://gansai.blogspot.com/p/machine-learning.html', 'id': '2861651702241920634', 'title': 'MACHINE LEARNING'}, {'isCurrentPage': false, 'href': 'https://gansai.blogspot.com/p/java.html', 'id': '8515520325316158290', 'title': 'JAVA'}, {'isCurrentPage': false, 'href': 'https://gansai.blogspot.com/p/google-cloud.html', 'id': '8030197554462708217', 'title': 'GOOGLE CLOUD'}], 'mobile': false}, 'displayModeFull'));
-_WidgetManager._RegisterWidget('_BlogView', new _WidgetInfo('Blog1', 'main', document.getElementById('Blog1'), {'cmtInteractionsEnabled': false, 'lightboxEnabled': true, 'lightboxModuleUrl': 'https://www.blogger.com/static/v1/jsbin/543244584-lbx.js', 'lightboxCssUrl': 'https://www.blogger.com/static/v1/v-css/1050234869-lightbox_bundle.css'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_PageListView', new _WidgetInfo('PageList2', 'hot-section', document.getElementById('PageList2'), {'title': 'Pages', 'links': [{'isCurrentPage': false, 'href': 'https://gansai.blogspot.com/', 'title': 'Home'}, {'isCurrentPage': false, 'href': 'https://gansai.blogspot.com/p/paradigms.html', 'id': '3146459168772775403', 'title': 'PARADIGMS'}, {'isCurrentPage': false, 'href': 'https://gansai.blogspot.com/p/javascript.html', 'id': '4759882356307147019', 'title': 'JAVASCRIPT'}, {'isCurrentPage': false, 'href': 'https://gansai.blogspot.com/p/learn-architecture.html', 'id': '7408392214788263315', 'title': 'ARCHITECTURE'}, {'isCurrentPage': false, 'href': 'https://gansai.blogspot.com/p/machine-learning.html', 'id': '2861651702241920634', 'title': 'MACHINE LEARNING'}, {'isCurrentPage': false, 'href': 'https://gansai.blogspot.com/p/java.html', 'id': '8515520325316158290', 'title': 'JAVA'}, {'isCurrentPage': false, 'href': 'https://gansai.blogspot.com/p/google-cloud.html', 'id': '8030197554462708217', 'title': 'GOOGLE CLOUD'}], 'mobile': false}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogView', new _WidgetInfo('Blog1', 'main', document.getElementById('Blog1'), {'cmtInteractionsEnabled': false, 'showBacklinks': true, 'postId': '1779531691010210279', 'lightboxEnabled': true, 'lightboxModuleUrl': 'https://www.blogger.com/static/v1/jsbin/1473153609-lbx.js', 'lightboxCssUrl': 'https://www.blogger.com/static/v1/v-css/1050234869-lightbox_bundle.css'}, 'displayModeFull'));
 _WidgetManager._RegisterWidget('_AdSenseView', new _WidgetInfo('AdSense1', 'sidebar1', document.getElementById('AdSense1'), {}, 'displayModeFull'));
 _WidgetManager._RegisterWidget('_BlogSearchView', new _WidgetInfo('BlogSearch1', 'sidebar1', document.getElementById('BlogSearch1'), {}, 'displayModeFull'));
-_WidgetManager._RegisterWidget('_PageListView', new _WidgetInfo('PageList1', 'sidebar1', document.getElementById('PageList1'), {'title': '', 'links': [{'isCurrentPage': true, 'href': 'https://gansai.blogspot.com/', 'title': 'Home'}, {'isCurrentPage': false, 'href': 'https://gansai.blogspot.com/p/paradigms.html', 'id': '3146459168772775403', 'title': 'PARADIGMS'}, {'isCurrentPage': false, 'href': 'https://gansai.blogspot.com/p/javascript.html', 'id': '4759882356307147019', 'title': 'JAVASCRIPT'}, {'isCurrentPage': false, 'href': 'https://gansai.blogspot.com/p/learn-architecture.html', 'id': '7408392214788263315', 'title': 'ARCHITECTURE'}, {'isCurrentPage': false, 'href': 'https://gansai.blogspot.com/p/machine-learning.html', 'id': '2861651702241920634', 'title': 'MACHINE LEARNING'}, {'isCurrentPage': false, 'href': 'https://gansai.blogspot.com/p/java.html', 'id': '8515520325316158290', 'title': 'JAVA'}, {'isCurrentPage': false, 'href': 'https://gansai.blogspot.com/p/google-cloud.html', 'id': '8030197554462708217', 'title': 'GOOGLE CLOUD'}], 'mobile': false}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_PageListView', new _WidgetInfo('PageList1', 'sidebar1', document.getElementById('PageList1'), {'title': '', 'links': [{'isCurrentPage': false, 'href': 'https://gansai.blogspot.com/', 'title': 'Home'}, {'isCurrentPage': false, 'href': 'https://gansai.blogspot.com/p/paradigms.html', 'id': '3146459168772775403', 'title': 'PARADIGMS'}, {'isCurrentPage': false, 'href': 'https://gansai.blogspot.com/p/javascript.html', 'id': '4759882356307147019', 'title': 'JAVASCRIPT'}, {'isCurrentPage': false, 'href': 'https://gansai.blogspot.com/p/learn-architecture.html', 'id': '7408392214788263315', 'title': 'ARCHITECTURE'}, {'isCurrentPage': false, 'href': 'https://gansai.blogspot.com/p/machine-learning.html', 'id': '2861651702241920634', 'title': 'MACHINE LEARNING'}, {'isCurrentPage': false, 'href': 'https://gansai.blogspot.com/p/java.html', 'id': '8515520325316158290', 'title': 'JAVA'}, {'isCurrentPage': false, 'href': 'https://gansai.blogspot.com/p/google-cloud.html', 'id': '8030197554462708217', 'title': 'GOOGLE CLOUD'}], 'mobile': false}, 'displayModeFull'));
 _WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList75', 'social-widget', document.getElementById('LinkList75'), {}, 'displayModeFull'));
 _WidgetManager._RegisterWidget('_AdSenseView', new _WidgetInfo('AdSense3', 'sidebar2', document.getElementById('AdSense3'), {}, 'displayModeFull'));
 _WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML5', 'sidebar2', document.getElementById('HTML5'), {}, 'displayModeFull'));
