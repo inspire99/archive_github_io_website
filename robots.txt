@@ -5,5 +5,5 @@ User-agent: *
 Disallow: /search
 Allow: /
 
-Sitemap: https://gansai.blogspot.com/sitemap.xml
+Sitemap: https://inspire99.github.io/sitemap.xml
 
